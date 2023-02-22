@@ -1,0 +1,91 @@
+// 733. Flood Fill
+// https://leetcode.com/problems/flood-fill/?envType=study-plan&id=level-1
+
+// .JS
+var floodFill = function(image, sr, sc, color) {
+    let startColor = image[sr][sc];
+    if (startColor === color) return image;
+    let fill = (r, c) => {
+        if (image[r] === undefined || image[r][c] === undefined) return;
+        if (image[r][c] === startColor) {
+            image[r][c] = color;
+            fill(r+1, c);
+            fill(r-1, c);
+            fill(r, c+1);
+            fill(r, c-1);
+        }
+    }
+    fill(sr, sc);
+    return image;
+};
+
+
+// PHP
+class Solution
+{
+    function floodFill(&$image, $sr, $sc, $color)
+    {
+        $targetColor = $image[$sr][$sc];
+        if ($targetColor == $color) return $image;
+        $image[$sr][$sc] = $color;
+
+        $left = $sr - 1;
+        $right = $sr + 1;
+        $top = $sc - 1;
+        $bottom = $sc + 1;
+
+        if (isset($image[$left][$sc]) && $image[$left][$sc] == $targetColor) $this->floodFill($image, $left, $sc, $color);
+        if (isset($image[$right][$sc]) && $image[$right][$sc] == $targetColor) $this->floodFill($image, $right, $sc, $color);
+        if (isset($image[$sr][$top]) && $image[$sr][$top] == $targetColor) $this->floodFill($image, $sr, $top, $color);
+        if (isset($image[$sr][$bottom]) && $image[$sr][$bottom] == $targetColor) $this->floodFill($image, $sr, $bottom, $color);
+
+        return $image;
+    }
+}
+
+//-- OR --
+class Solution_akuno1 {
+    function checkNeighbours(&$image, $sr, $sc, $color, $targetColor): void
+    {
+        if (!isset($image[$sr][$sc]) || $image[$sr][$sc] != $targetColor) return;
+        $image[$sr][$sc] = $color;
+        $this->checkNeighbours($image, $sr-1, $sc, $color, $targetColor);
+        $this->checkNeighbours($image, $sr+1, $sc, $color, $targetColor);
+        $this->checkNeighbours($image, $sr, $sc-1, $color, $targetColor);
+        $this->checkNeighbours($image, $sr, $sc+1, $color, $targetColor);
+        return;
+    }
+
+    function floodFill($image, $sr, $sc, $color)
+    {
+        $targetColor = $image[$sr][$sc];
+        if ($targetColor == $color) return $image;
+        $this->checkNeighbours($image, $sr, $sc, $color, $targetColor);
+        return $image;
+    }
+}
+//-- OR --
+class Solution_akuno2 {
+    function floodFill($image, $sr, $sc, $color)
+    {
+        $targetColor = $image[$sr][$sc];
+        if ($targetColor == $color) return $image;
+        $this->checkNeighbours($image, $sr, $sc, $color, $targetColor);
+        return $image;
+    }
+    function checkNeighbours(&$image, $sr, $sc, $color, $targetColor): void
+    {
+        if (!isset($image[$sr][$sc]) || $image[$sr][$sc] != $targetColor) return;
+        $image[$sr][$sc] = $color;
+        $neighbours = [
+            [$sr-1, $sc], // top
+            [$sr+1, $sc], // bottom
+            [$sr, $sc-1], // left
+            [$sr, $sc+1]  // right
+        ];
+        foreach($neighbours as $neighbour){
+            $this->checkNeighbours($image, $neighbour[0], $neighbour[1], $color, $targetColor);
+        }
+        return;
+    }
+}
