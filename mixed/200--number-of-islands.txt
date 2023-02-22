@@ -82,7 +82,7 @@ var numIslands = function (grid) {
 
 
 // PHP
-function numIslands($grid): int
+    function numIslands($grid): int
     {
         $islandsCount = 0;
         $m = count($grid);     // y

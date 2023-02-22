@@ -2,7 +2,7 @@
 // https://leetcode.com/problems/number-of-islands/
 // 200. Number of Islands
 //   Medium
-//   Given an m x n 2D binary grid grid which represents a map of '1's (land) and '0's (water), return the number of islands.
+//   Given an m x n 2D binary grid  which represents a map of '1's (land) and '0's (water), return the number of islands.
 //   An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 //   Example 1:
 //   Input: grid = [
@@ -72,6 +72,57 @@ class Solution
     }
 }
 
+class Solution___2
+{
+
+    /**
+     * @param String[][] $grid
+     * @return Integer
+     */
+    function numIslands($grid): int
+    {
+//        m == grid.length
+//        n == grid[i].length
+//        1 <= m, n <= 300
+//        grid[i][j] is '0' or '1'.
+
+        $islandsCount = 0;
+        $m = count($grid);     // y
+        $n = count($grid[0]);  // x
+
+        for ($i = 0; $i < $m; $i++) {
+            for ($j = 0; $j < $n; $j++) {
+                $zone = $grid[$i][$j];
+                if ($zone === '1') {
+                    $islandsCount++;
+                    $this->checkNeighbours($grid, $i, $j);
+                }
+            }
+        }
+        return $islandsCount;
+    }
+
+    function checkNeighbours(&$grid, $i, $j): void
+    {
+        if (!isset($grid[$i][$j]) || $grid[$i][$j] != 1) return;
+        $grid[$i][$j] = '2'; // 0
+        $this->checkNeighbours($grid, $i - 1, $j);
+        $this->checkNeighbours($grid, $i + 1, $j);
+        $this->checkNeighbours($grid, $i, $j - 1);
+        $this->checkNeighbours($grid, $i, $j + 1);
+
+        // $neighbours = [
+        //     [$i - 1, $j], // top
+        //     [$i + 1, $j], // bottom
+        //     [$i, $j - 1], // left
+        //     [$i, $j + 1]  // right
+        // ];
+        // foreach ($neighbours as $neighbour) {
+        //     $this->checkNeighbours($grid, $neighbour[0], $neighbour[1]);
+        // }
+        return;
+    }
+}
 
 // Test Cases
 $cases = [];
