@@ -1,0 +1,90 @@
+//98. Validate Binary Search Tree
+//https://leetcode.com/problems/validate-binary-search-tree/
+
+// .JS
+var isValidBST = function(root, minLimit = -Infinity, maxLimit = Infinity) {
+    if( root === null ) return true;
+    if( (root.val <= minLimit) || root.val >= maxLimit ) return false;
+    return isValidBST(root.left, minLimit, root.val) && isValidBST(root.right, root.val, maxLimit);
+};
+
+//-- OR --
+var isValidBST = function (root) {
+    const isNodeValidBST = function (root, minLimit = -Infinity, maxLimit = Infinity) {
+        if (root === null) return true;
+        if ((root.val <= minLimit) || (root.val >= maxLimit)) return false;
+        return isNodeValidBST(root.left, minLimit, root.val) && isNodeValidBST(root.right, root.val, maxLimit);
+    }
+    return isNodeValidBST(root);
+};
+
+
+// PHP
+class Solution {
+
+    /**
+     * @param TreeNode $root
+     * @return Boolean
+     */
+    function isValidBST($root)
+    {
+        return $this->isNodeValid($root, null, null);
+    }
+
+    function isNodeValid($root, $lower, $greater)
+    {
+        if ($root === null) {
+            return true;
+        }
+        if ( ($lower !== null && $root->val <= $lower) || ($greater !== null && $root->val >= $greater) ) {
+            return false;
+        }
+        return $this->isNodeValid($root->left, $lower, $root->val) && $this->isNodeValid($root->right, $root->val, $greater);
+    }
+}
+
+//-- OR --
+
+var isValidBST = function(root, minLimit = -Infinity, maxLimit = Infinity) {
+    if( root === null ) return true;
+    if( (root.val <= minLimit) || root.val >= maxLimit ) return false;
+    return isValidBST(root.left, minLimit, root.val) && isValidBST(root.right, root.val, maxLimit);
+};
+
+//-- OR --
+//-- OR --
+
+class Solution
+{
+
+    /**
+     * @param TreeNode $root
+     * @return Boolean
+     */
+    function isValidBST(TreeNode $root)
+    {
+        return $this->isNodeValid($root);
+    }
+
+    function isNodeValid(TreeNode $root, $lower = null, $greater = null)
+    {
+        if ($root->left &&
+            ($root->left->val >= $root->val ||
+                ($greater !== null && $root->left->val <= $greater) ||
+                ($lower !== null && $root->left->val >= $lower)
+            )
+        ) {
+            return false;
+        }
+        if ($root->right &&
+            ($root->right->val <= $root->val ||
+                ($greater !== null && $root->right->val <= $greater) ||
+                ($lower !== null && $root->right->val >= $lower)
+            )
+        ) return false;
+
+        if ($root->left && !$this->isNodeValid($root->left, ($lower == null || $lower > $root->val) ? $root->val : $lower, $greater)) return false;
+        if ($root->right && !$this->isNodeValid($root->right, $lower, ($greater == null || $greater > $root->val) ? $root->val : $greater)) return false;
+        return true;
+    }
+}
