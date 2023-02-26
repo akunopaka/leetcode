@@ -1,0 +1,39 @@
+//  1. Two Sum
+// https://leetcode.com/problems/two-sum/
+
+// .JS
+var twoSum = function (nums, target) {
+    for (let i = 0; i < nums.length; i++) {
+        let secondIndex = nums.indexOf(target - nums[i], i + 1);
+        if (secondIndex != -1) {
+            return [i, secondIndex];
+        }
+    }
+};
+//-- OR --
+
+// PHP
+
+
+class Solution
+{
+    /**
+     * @param Integer[] $nums
+     * @param Integer $target
+     * @return Integer[]
+     */
+    function twoSum(array $nums, int $target): array
+    {
+        $map = [];
+        foreach ($nums as $i => $num) {
+            if (isset($map[$target - $num])) {
+                return [$map[$target - $num], $i];
+            }
+            $map[$num] = $i;
+        }
+        return [];
+    }
+}
+//-- OR --
+
+
