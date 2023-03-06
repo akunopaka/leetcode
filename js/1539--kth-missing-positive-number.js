@@ -27,6 +27,26 @@
  * @param {number} k
  * @return {number}
  */
+/**
+ * @param {number[]} arr
+ * @param {number} k
+ * @return {number}
+ */
+var findKthPositive = function (arr, k) {
+    let leftIndex = 0, rightIndex = arr.length;
+    while (leftIndex <= rightIndex) {
+        let midIndex = leftIndex + Math.floor((rightIndex - leftIndex) / 2);
+        if (arr[midIndex] - midIndex - 1 < k) {
+            leftIndex = midIndex + 1;
+        } else {
+            rightIndex = midIndex - 1;
+        }
+    }
+    return leftIndex + k;
+};
+
+
+// OR
 var findKthPositive = function (arr, k) {
     let arrLength = arr.length;
     let leftIndex = 0;
