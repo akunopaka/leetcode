@@ -31,6 +31,11 @@
 
 
 // SOLUTION #1/3 - reservoir sampling
+// SOLUTION #2/3 -- Count the nodes, get random number, traverse the list and return the node at random number position
+// SOLUTION #3/3 -- make array from ListNode and get random element from there
+
+
+// SOLUTION #1/3 - reservoir sampling
 /**
  * Definition for singly-linked list.
  * function ListNode(val, next) {
@@ -86,10 +91,10 @@ Solution.prototype.getRandom = function () {
  */
 var Solution = function (head) {
     let node = head;
-    this.len = 0;
+    this.length = 0;
     this.head = head;
     while (node) {
-        this.len++;
+        this.length++;
         node = node.next;
     }
 };
@@ -98,7 +103,7 @@ var Solution = function (head) {
  * @return {number}
  */
 Solution.prototype.getRandom = function () {
-    let rand = Math.floor(Math.random() * this.len), node = this.head;
+    let rand = Math.floor(Math.random() * this.length), node = this.head;
     for (let i = 0; i < rand; i++)
         node = node.next;
     return node.val;
@@ -114,7 +119,7 @@ Solution.prototype.getRandom = function () {
 
 // SOLUTION 3/3  make array from ListNode and get random element from there
 var Solution = function (head) {
-    arr = [];
+    array = [];
     while (head) {
         arr.push(head.val);
         head = head.next;
@@ -122,6 +127,5 @@ var Solution = function (head) {
 };
 
 Solution.prototype.getRandom = function () {
-    let rand = Math.floor(Math.random() * arr.length)
-    return arr[rand];
+    return array[Math.floor(Math.random() * array.length)];
 };
