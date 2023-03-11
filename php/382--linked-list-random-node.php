@@ -32,6 +32,11 @@
 
 
 // SOLUTION #1/3 - reservoir sampling
+// SOLUTION #2/3 -- Count the nodes, get random number, traverse the list and return the node at random number position
+// SOLUTION #3/3 -- make array from ListNode and get random element from there
+
+
+// SOLUTION #1/3 - reservoir sampling
 // R Algorithm, O(n) time, O(1) space,
 class Solution
 {
@@ -83,7 +88,7 @@ class Solution
  *     }
  * }
  */
-class Solution___2
+class Solution__2
 {
     /**
      * @param ListNode $head
