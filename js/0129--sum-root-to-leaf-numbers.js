@@ -63,7 +63,7 @@ var sumNumbers = function (root) {
 var sumNumbers = function (root) {
     let totalSum = 0;
     if (root === null || root.val === undefined) return 0;
-    if (root.left === undefined && root.right === undefined) return 0;
+    if (root.left === undefined && root.right === undefined) return root.val;
     let queue = [root];
 
     while (queue.length > 0) {
