@@ -6,14 +6,14 @@ been using this site to help me improve my coding skills, and I have come up wit
 problems. My approach is to first break down the problem into smaller pieces. Then, I look up the different methods and
 algorithms that can be used to solve the problem. Once I have a better understanding of the problem and the available
 solutions, I try to find the most efficient way to solve the problem.
-
+</sup><sup>
 I often use the divide and conquer approach, where I break down the problem into smaller subproblems and solve them
 individually. This helps reduce the complexity of the problem, making it easier to understand and solve. I also use the
 brute force method to solve the problem, which involves trying every possible solution until the correct one is found.
-
+</sup><sup>
 To test my solutions, I use the in-built test cases provided by Leetcode.com. This allows me to quickly check if my code
 is doing what it's supposed to do. I also use the debugging feature to check for errors in my code.
-
+</sup><sup>
 Overall, my approach to solving problems from Leetcode.com has **helped me improve my coding skills and become a better
 programmer**. I am constantly improving my coding skills by trying out different solutions and learning from my
 mistakes.</sup>
