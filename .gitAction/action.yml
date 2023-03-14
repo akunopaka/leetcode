@@ -1,0 +1,10 @@
+inputs:
+  GITHUB_TOKEN:
+    description: 'GITHUB_TOKEN'
+    required: true
+  GITHUB_REPOSITORY:
+    description: 'GITHUB_REPOSITORY'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
