@@ -40,7 +40,7 @@ Andrii Sokol*</sup>
 | 0098 |   [VALIDATE BINARY SEARCH TREE](https://leetcode.com/problems/validate-binary-search-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/98--validate-binary-search-tree.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/98--validate-binary-search-tree.php)  |
 | 0101 |   [SYMMETRIC TREE](https://leetcode.com/problems/symmetric-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0101--symmetric-tree.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/0101--symmetric-tree.php)  |
 | 0109 |   [CONVERT SORTED LIST TO BINARY SEARCH TREE](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0109--convert-sorted-list-to-binary-search-tree.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/0109--convert-sorted-list-to-binary-search-tree.php)  |
-| 0129 |   [SUM ROOT TO LEAF NUMBERS](https://leetcode.com/problems/sum-root-to-leaf-numbers/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0129--sum-root-to-leaf-numbers.js)  |  x  |
+| 0129 |   [SUM ROOT TO LEAF NUMBERS](https://leetcode.com/problems/sum-root-to-leaf-numbers/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0129--sum-root-to-leaf-numbers.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/0129--sum-root-to-leaf-numbers.php)  |
 | 0142 |   [LINKED LIST CYCLE II](https://leetcode.com/problems/linked-list-cycle-ii/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/142--linked-list-cycle-ii.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/142--linked-list-cycle-ii.php)  |
 | 0200 |   [NUMBER OF ISLANDS](https://leetcode.com/problems/number-of-islands/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/200--number-of-islands.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/200--number-of-islands.php)  |
 | 0382 |   [LINKED LIST RANDOM NODE](https://leetcode.com/problems/linked-list-random-node/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/382--linked-list-random-node.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/382--linked-list-random-node.php)  |
@@ -57,7 +57,7 @@ Andrii Sokol*</sup>
 | 2187 |   [MINIMUM TIME TO COMPLETE TRIPS](https://leetcode.com/problems/minimum-time-to-complete-trips/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/2187--minimum-time-to-complete-trips.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/2187--minimum-time-to-complete-trips.php)  |
 | 2444 |   [COUNT SUBARRAYS WITH FIXED BOUNDS](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)  |
 
-<sup>Last update:  Tue, 14 Mar 2023 19:46:50 GMT</sub>
+<sup>Last update:  Tue, 14 Mar 2023 20:00:43 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
