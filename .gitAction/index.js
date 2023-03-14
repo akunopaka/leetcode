@@ -103,7 +103,7 @@ const getSolvedProblemArray = async (url, checkFolderArr = ['php', 'js']) => {
         readmeContentData = decodedContent.replace(/<!-- LeetCode Solutions Table -->[\s\S]*<!-- End LeetCode Solutions of Table -->/, `<!-- LeetCode Solutions Table -->${readmeContentData}<!-- End LeetCode Solutions of Table -->`);
 
         console.log('Update README.md.');
-        await updateReadme('PUT /repos/${username}/${repo}/contents/${readmePath}', {
+        await updateReadme(`PUT /repos/${username}/${repo}/contents/${readmePath}`, {
             message: '(Automated) Update README.md',
             content: Buffer.from(readmeContentData, "utf8").toString('base64'),
             sha: sha1,
