@@ -9,7 +9,7 @@ jobs:
     name: Readme.md Auto Update - Leetcode Solutions Table
     steps:
       - uses: actions/checkout@v3
-      - uses: akunopaka/githubAction/.gitAction/@main
+      - uses: akunopaka/leetcode/.gitAction/@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: 'akunopaka/leetcode/README.md'
