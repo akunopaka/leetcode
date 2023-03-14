@@ -1,5 +1,7 @@
 // 129. Sum Root to Leaf Numbers
 // https://leetcode.com/problems/sum-root-to-leaf-numbers/
+My SOLUTIONs: https://leetcode.com/problems/sum-root-to-leaf-numbers/solutions/3297822/php-beats-100-javascript-93-2-different-approaches/
+
 // Medium
 //You are given the root of a binary tree containing digits from 0 to 9 only.
 //Each root-to-leaf path in the tree represents a number.
@@ -137,3 +139,118 @@ class Solution___2
         return $totalSum;
     }
 }
+
+
+
+// POST https://leetcode.com/problems/sum-root-to-leaf-numbers/solutions/3297822/php-beats-100-javascript-93-2-different-approaches/
+##### Here you can get acquainted with **2 different solutions**. Solutions implemented in **PHP** and **JavaScript**
+
+### SOLUTION #1
+The approach used in this solution is to traverse the tree using a breadth-first search, and for each node add the values of its children to the sum of its own value. We also use a queue to keep track of the nodes that need to be visited. We start with the root node, and for each node check if it is a leaf node (if it has no children). If it is, add the value of the node to the total sum. If it is not a leaf node, add its children to the queue, and add the node value to the children's values. When the queue is empty, all the nodes have been visited and the sum is returned.
+*Time complexity*: O(n), as we visit every node in the tree once.
+*Space complexity*: O(n), as we use a queue to store up to n nodes at any given time.
+
+```PHP []
+class Solution
+{
+    /**
+     * @param TreeNode $root
+     * @return Integer
+     */
+    function sumNumbers(TreeNode $root): int {
+        if ($root === null || $root->val === null) return 0;
+        $totalSum = 0;
+        $queue = [$root];
+        while (count($queue) > 0) {
+            $node = array_shift($queue);
+            if ($node->left === null && $node->right === null) {
+                $totalSum += $node->val;
+            }
+
+            if ($node->left) {
+                $node->left->val = $node->val * 10 + $node->left->val;
+                $queue[] = $node->left;
+            }
+            if ($node->right) {
+                $node->right->val = $node->val * 10 + $node->right->val;
+                $queue[] = $node->right;
+            }
+        }
+        return $totalSum;
+    }
+}
+```
+```javascript []
+var sumNumbers = function (root) {
+    let totalSum = 0;
+    if (root === null || root.val === undefined) return 0;
+    if (root.left === undefined && root.right === undefined) return root.val;
+    let queue = [root];
+
+    while (queue.length > 0) {
+        node = queue.shift();
+        if (node.left === null && node.right == null) {
+            totalSum += node.val;
+        }
+        if (node.left && node.left.val !== undefined) {
+            node.left.val = node.val * 10 + node.left.val;
+            queue.push(node.left);
+        }
+        if (node.right && node.right.val !== undefined) {
+            node.right.val = node.val * 10 + node.right.val;
+            queue.push(node.right);
+        }
+    }
+    return totalSum;
+};
+```
+
+
+### SOLUTION #2
+This solution uses a Depth-First Search (DFS) approach to traverse the binary tree and calculate the sum of all root-to-leaf path numbers. The DFS function takes in a node and the sum of the existing path up to the node. If the node is null, then it returns 0. If the node is a leaf node, it returns the total sum of the path from the root to the leaf node. If the node has children, then it calls the same DFS function on both of the children, passing in the sum of the existing path up to that node. The sum of all the DFS calls is then returned.
+*Time Complexity*: O(n) as we have to traverse each node in the binary tree once.
+*Space Complexity*: O(n) as the maximum depth of the recursive stack can be n for a binary tree with n nodes.
+
+```PHP []
+class Solution
+{
+    /**
+     * @param TreeNode $root
+     * @return Integer
+     */
+    function sumNumbers(TreeNode $root): int
+    {
+        return $this->dfs($root, 0);
+    }
+
+    private function dfs(?TreeNode $node, int $sum): int
+    {
+        if ($node === null) {
+            return 0;
+        }
+        if ($node->left === null && $node->right == null) {
+            return $sum * 10 + $node->val;
+        }
+        return $this->dfs($node->left, $sum * 10 + $node->val) +
+            $this->dfs($node->right, $sum * 10 + $node->val);
+    }
+}
+```
+```javascript []
+var sumNumbers = function (root) {
+    const dfs = function (node, sum) {
+        if (node == null) {
+            return 0;
+        }
+        if (node.left === null && node.right == null) {
+            return sum * 10 + node.val;
+        }
+        return dfs(node.left, sum * 10 + node.val) +
+            dfs(node.right, sum * 10 + node.val)
+    }
+    return dfs(root, 0);
+}
+```
+
+### If my work was useful for you, please upvote
+👍👍👍
