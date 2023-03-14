@@ -33,6 +33,15 @@ const updateReadme = async (url, requestOptions) => {
         throw new Error(e.message);
     }
 }
+
+const toTitleCase = (phrase) => {
+    return phrase
+        .toLowerCase()
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+};
+
 const getSolvedProblemArray = async (url, checkFolderArr = ['php', 'js']) => {
     const solvedProblemsArray = {};
     for (const lang of checkFolderArr) {
@@ -46,8 +55,7 @@ const getSolvedProblemArray = async (url, checkFolderArr = ['php', 'js']) => {
             var rowSplit = fileName.split("--");
             var num = String(rowSplit[0].replace(/^0+/, ''));
             var leetURL = String(rowSplit[1]).replace('.' + lang, '');
-            var name = rowSplit[1].replace(/\-/g, ' ').replace('.' + lang, '').toUpperCase();
-
+            var name = toTitleCase(rowSplit[1].replace(/\-/g, ' ').replace('.' + lang, '').toUpperCase());
             if (Object.keys(solvedProblemsArray).indexOf(num) === -1) {
                 solvedProblemsArray[num] = {};
                 solvedProblemsArray[num]['num'] = num.padStart(4, '0');
