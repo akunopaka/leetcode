@@ -51,14 +51,14 @@ Andrii Sokol*</sup>
 | 0746 |   [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/746--min-cost-climbing-stairs.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/746--min-cost-climbing-stairs.php)  |
 | 0875 |   [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/875--koko-eating-bananas.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/875--koko-eating-bananas.php)  |
 | 0912 |   [Sort An Array](https://leetcode.com/problems/sort-an-array/)   |  x  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/912--sort-an-array.php)  |
-| 0958 |   [Check Completeness Of A Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/958--check-completeness-of-a-binary-tree.js)  |  x  |
+| 0958 |   [Check Completeness Of A Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/958--check-completeness-of-a-binary-tree.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/958--check-completeness-of-a-binary-tree.php)  |
 | 1046 |   [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/1046--last-stone-weight.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/1046--last-stone-weight.php)  |
 | 1345 |   [Jump Game Iv](https://leetcode.com/problems/jump-game-iv/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/1345--jump-game-iv.js)  |  x  |
 | 1539 |   [Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/1539--kth-missing-positive-number.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/1539--kth-missing-positive-number.php)  |
 | 2187 |   [Minimum Time To Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/2187--minimum-time-to-complete-trips.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/2187--minimum-time-to-complete-trips.php)  |
 | 2444 |   [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)  |
 
-<sup>Last update:  Wed, 15 Mar 2023 21:12:56 GMT</sub>
+<sup>Last update:  Wed, 15 Mar 2023 21:13:16 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
