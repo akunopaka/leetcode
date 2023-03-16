@@ -44,14 +44,11 @@ class Solution
             $node = array_shift($queue);
             if (!$node) {
                 $nullNodeFound = true;
-                continue;
+            } else {
+                if ($nullNodeFound) return false;
+                $queue[] = $node->left;
+                $queue[] = $node->right;
             }
-            if ($node->val && $nullNodeFound) {
-                return false;
-            }
-            $queue[] = $node->left;
-            $queue[] = $node->right;
-
         }
         return true;
     }

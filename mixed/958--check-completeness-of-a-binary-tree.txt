@@ -21,21 +21,44 @@
 // .JS
 // Breadth-first search (BFS) - from left to right - if there is any nodes aftrer null -> means not  a complete binary tree == false
 var isCompleteTree = function (root) {
+    // Breadth-first search (BFS) - from left to right - if there is any nodes aftrer null -> means not  a complete binary tree == false
     let nullNodeFound = false;
     let queue = [root];
     while (queue.length > 0) {
-        let node = queue.shift();
+        const node = queue.shift();
         if (node === null) {
             nullNodeFound = true;
             continue;
+        } else {
+            if (nullNodeFound) return false;
+            queue.push(node.left);
+            queue.push(node.right);
         }
-        if (node.val && nullNodeFound == true) return false;
-        queue.push(node.left);
-        queue.push(node.right);
     }
     return true;
-};
+}
 
 // PHP
-
-//-- OR --
+class Solution
+{
+    /**
+     * @param TreeNode $root
+     * @return Boolean
+     */
+    function isCompleteTree(?TreeNode $root): bool
+    {
+        $nullNodeFound = false;
+        $queue = [$root];
+        while (count($queue) > 0) {
+            $node = array_shift($queue);
+            if (!$node) {
+                $nullNodeFound = true;
+            } else {
+                if ($nullNodeFound) return false;
+                $queue[] = $node->left;
+                $queue[] = $node->right;
+            }
+        }
+        return true;
+    }
+}

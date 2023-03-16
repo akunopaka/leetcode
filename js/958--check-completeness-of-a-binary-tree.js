@@ -33,14 +33,15 @@ var isCompleteTree = function (root) {
     let nullNodeFound = false;
     let queue = [root];
     while (queue.length > 0) {
-        let node = queue.shift();
+        const node = queue.shift();
         if (node === null) {
             nullNodeFound = true;
             continue;
+        } else {
+            if (nullNodeFound) return false;
+            queue.push(node.left);
+            queue.push(node.right);
         }
-        if (node.val && nullNodeFound === true) return false;
-        queue.push(node.left);
-        queue.push(node.right);
     }
     return true;
-};
+}
