@@ -39,6 +39,7 @@ Andrii Sokol*</sup>
 | 0070 |   [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/70--climbing-stairs.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/70--climbing-stairs.php)  |
 | 0098 |   [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/98--validate-binary-search-tree.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/98--validate-binary-search-tree.php)  |
 | 0101 |   [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0101--symmetric-tree.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/0101--symmetric-tree.php)  |
+| 0106 |   [Construct Binary Tree From Inorder And Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0106--construct-binary-tree-from-inorder-and-postorder-traversal.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/0106--construct-binary-tree-from-inorder-and-postorder-traversal.php)  |
 | 0109 |   [Convert Sorted List To Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0109--convert-sorted-list-to-binary-search-tree.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/0109--convert-sorted-list-to-binary-search-tree.php)  |
 | 0129 |   [Sum Root To Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/0129--sum-root-to-leaf-numbers.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/0129--sum-root-to-leaf-numbers.php)  |
 | 0142 |   [Linked List Cycle Ii](https://leetcode.com/problems/linked-list-cycle-ii/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/142--linked-list-cycle-ii.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/142--linked-list-cycle-ii.php)  |
@@ -58,7 +59,7 @@ Andrii Sokol*</sup>
 | 2187 |   [Minimum Time To Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/2187--minimum-time-to-complete-trips.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/2187--minimum-time-to-complete-trips.php)  |
 | 2444 |   [Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)   |  [JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)  |  [PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)  |
 
-<sup>Last update:  Thu, 16 Mar 2023 01:55:32 GMT</sub>
+<sup>Last update:  Fri, 17 Mar 2023 00:06:34 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
