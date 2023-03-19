@@ -32,6 +32,7 @@
 // At most 104 calls will be made to addWord and search.
 
 
+// .JS
 // SOLUTION 00 - implement a trie
 var WordDictionary = function () {
     this.trie = {};
@@ -100,15 +101,20 @@ WordDictionary.prototype.addWord = function (word) {
  * @return {boolean}
  */
 WordDictionary.prototype.search = function (word) {
+    // Recursive helper function
     const searchHelper = (node, word) => {
+        // Base case: if the word is empty, return true if the node is an end of a word
         if (word.length === 0) return node.isEnd === true;
+        // If the first character is a dot, loop through all the possible characters
         if (word[0] === '.') {
             for (const char in node) {
                 if (char !== 'isEnd' && searchHelper(node[char], word.slice(1))) return true;
             }
             return false;
         }
+        // If the first character is not a dot, check if the node has the character
         if (!(word[0] in node)) return false;
+        // If the node has the character, continue searching
         return searchHelper(node[word[0]], word.slice(1));
     };
     return searchHelper(this.root, word);
@@ -154,3 +160,77 @@ WordDictionary.prototype.search = function (word) {
     }
     return false;
 };
+
+/**
+ * Your WordDictionary object will be instantiated and called as such:
+ * var obj = new WordDictionary()
+ * obj.addWord(word)
+ * var param_2 = obj.search(word)
+ */
+
+
+// PHP
+
+
+class TrieNode
+{
+    public $children = [];
+    public $isWordEnd = false;
+}
+
+class WordDictionary
+{
+    private $root;
+
+    function __construct()
+    {
+        $this->root = new TrieNode();
+    }
+
+    /**
+     * @param String $word
+     * @return NULL
+     */
+    function addWord($word)
+    {
+        $node = $this->root;
+        $wordLength = strlen($word);
+        for ($i = 0; $i < $wordLength; $i++) {
+            if (!isset($node->children[$word[$i]])) {
+                $node->children[$word[$i]] = new TrieNode();
+            }
+            $node = $node->children[$word[$i]];
+        }
+        $node->isWordEnd = true;
+        return null;
+    }
+
+    /**
+     * @param String $word
+     * @return Boolean
+     */
+    function search($word)
+    {
+        return $this->searchHelper($word, $this->root, 0);
+    }
+
+    function searchHelper($word, $node, $index)
+    {
+        if ($index == strlen($word)) {
+            return $node->isWordEnd;
+        }
+        if ($word[$index] == '.') {
+            foreach ($node->children as $child) {
+                if ($this->searchHelper($word, $child, $index + 1)) {
+                    return true;
+                }
+            }
+            return false;
+        } else {
+            if (!isset($node->children[$word[$index]])) {
+                return false;
+            }
+            return $this->searchHelper($word, $node->children[$word[$index]], $index + 1);
+        }
+    }
+}
