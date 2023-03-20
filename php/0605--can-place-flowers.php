@@ -18,15 +18,40 @@
 // There are no two adjacent flowers in flowerbed.
 // 0 <= n <= flowerbed.length
 
-class Solution____2
+
+class Solution
 {
     /**
-     *  SOLUTION 3 - without modifying the input array
      * @param Integer[] $flowerbed
      * @param Integer $n
      * @return Boolean
      */
-    function canPlaceFlowers($flowerbed, $n)
+    function canPlaceFlowers(array $flowerbed, int $n): bool
+    {
+        array_unshift($flowerbed, 0);
+        array_push($flowerbed, 0);
+        $flowerbedLength = count($flowerbed);
+        for ($i = 1; $i < $flowerbedLength - 1; $i++) {
+            if ($flowerbed[$i] + $flowerbed[$i - 1] + $flowerbed[$i + 1] == 0) {
+                $n--;
+                $i++;
+            }
+            if ($n <= 0) return true;
+        }
+        return $n <= 0;
+    }
+}
+
+
+class Solution____2
+{
+    /**
+     *  SOLUTION 2 - without modifying the input array
+     * @param Integer[] $flowerbed
+     * @param Integer $n
+     * @return Boolean
+     */
+    function canPlaceFlowers(array $flowerbed, int $n): bool
     {
         $count = 0;
         $flowerbedLength = count($flowerbed);

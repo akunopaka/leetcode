@@ -23,18 +23,15 @@
  * @return {boolean}
  */
 var canPlaceFlowers = function (flowerbed, n) {
-    let count = 0;
-    for (let i = 0; i < flowerbed.length; i++) {
-        if (flowerbed[i] === 0 &&
-            (i === 0 || flowerbed[i - 1] === 0) &&
-            (i === flowerbed.length - 1 || flowerbed[i + 1] === 0)
-        ) {
-            flowerbed[i] = 1;
-            count++;
+    flowerbed.unshift(0);
+    flowerbed.push(0);
+    for (let i = 1; i < flowerbed.length - 1; i++) {
+        if (flowerbed[i - 1] + flowerbed[i] + flowerbed[i + 1] == 0) {
+            n--;
+            i++;
         }
-        if (count >= n) return true;
     }
-    return count >= n;
+    return n <= 0;
 }
 
 
@@ -45,38 +42,38 @@ var canPlaceFlowers = function (flowerbed, n) {
  * @param {number} n
  * @return {boolean}
  */
-var canPlaceFlowers___2 = function (flowerbed, n) {
-    const size = flowerbed.length;
-    for (let i = 0; i < size; i++) {
-        if (flowerbed[i] === 0 &&
-            (i === 0 || flowerbed[i - 1] === 0) &&
-            (i === flowerbed.length - 1 || flowerbed[i + 1] === 0)
-        ) {
-            flowerbed[i] = 1;
-            n--;
-            i++;
-        }
-        if (n <= 0) return true;
-    }
-    return false;
-}
+// var canPlaceFlowers___2 = function (flowerbed, n) {
+//     const size = flowerbed.length;
+//     for (let i = 0; i < size; i++) {
+//         if (flowerbed[i] === 0 &&
+//             (i === 0 || flowerbed[i - 1] === 0) &&
+//             (i === flowerbed.length - 1 || flowerbed[i + 1] === 0)
+//         ) {
+//             flowerbed[i] = 1;
+//             n--;
+//             i++;
+//         }
+//         if (n <= 0) return true;
+//     }
+//     return false;
+// }
 
 
 // -- OR --
 // SOLUTION 3 - without modifying the input array
-var canPlaceFlowers_______3 = function (flowerbed, n) {
-    let current = 0;
-    const size = flowerbed.length;
-    for (var i = 0; i <= size; i++) {
-        if (i < size && flowerbed[i] == 0) {
-            current++;
-            if (i == 0) current++;
-            if (i == size - 1) current++;
-        } else {
-            n -= Math.trunc((current - 1) / 2);
-            if (n <= 0) return true;
-            current = 0;
-        }
-    }
-    return false;
-};
+// var canPlaceFlowers_______3 = function (flowerbed, n) {
+//     let current = 0;
+//     const size = flowerbed.length;
+//     for (var i = 0; i <= size; i++) {
+//         if (i < size && flowerbed[i] == 0) {
+//             current++;
+//             if (i == 0) current++;
+//             if (i == size - 1) current++;
+//         } else {
+//             n -= Math.trunc((current - 1) / 2);
+//             if (n <= 0) return true;
+//             current = 0;
+//         }
+//     }
+//     return false;
+// };
