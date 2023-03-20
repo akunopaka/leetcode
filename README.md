@@ -63,7 +63,7 @@ Andrii Sokol*</sup>
 |<sup>2187</sup>|<sup>[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2187--minimum-time-to-complete-trips.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2187--minimum-time-to-complete-trips.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>Hard</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Mon, 20 Mar 2023 01:34:05 GMT</sub>
+<sup>Last update:  Mon, 20 Mar 2023 03:19:50 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
