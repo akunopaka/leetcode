@@ -89,7 +89,7 @@ class Solution
 -- OR --
 
 ```php
-class Solution____akuno
+class Solution
 {
     function search(array $nums, int $target): int
     {
@@ -98,7 +98,7 @@ class Solution____akuno
         return (int)$res;
     }
 
-    function getIndex($nums, $target, $offset = 0)
+    function getIndex(array $nums, int $target, int $offset = 0): int
     {
         if (!in_array($target, $nums)) return -1;
         $index = -1;
