@@ -51,6 +51,7 @@ Andrii Sokol*</sup>
 |<sup>0443</sup>|<sup>[String Compression](https://leetcode.com/problems/string-compression/)</sup>|<sup>Medium</sup>|<sup>x</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/443--string-compression.php)</sup>|
 |<sup>0509</sup>|<sup>[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/509--fibonacci-number.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/509--fibonacci-number.php)</sup>|
 |<sup>0605</sup>|<sup>[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0605--can-place-flowers.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0605--can-place-flowers.php)</sup>|
+|<sup>0704</sup>|<sup>[Binary Search](https://leetcode.com/problems/binary-search/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0704--binary-search.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0704--binary-search.php)</sup>|
 |<sup>0733</sup>|<sup>[Flood Fill](https://leetcode.com/problems/flood-fill/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/733--flood-fill.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/733--flood-fill.php)</sup>|
 |<sup>0746</sup>|<sup>[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/746--min-cost-climbing-stairs.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/746--min-cost-climbing-stairs.php)</sup>|
 |<sup>0875</sup>|<sup>[Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/875--koko-eating-bananas.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/875--koko-eating-bananas.php)</sup>|
@@ -63,7 +64,7 @@ Andrii Sokol*</sup>
 |<sup>2187</sup>|<sup>[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2187--minimum-time-to-complete-trips.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2187--minimum-time-to-complete-trips.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>Hard</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Mon, 20 Mar 2023 03:19:50 GMT</sub>
+<sup>Last update:  Sat, 01 Apr 2023 13:26:29 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
