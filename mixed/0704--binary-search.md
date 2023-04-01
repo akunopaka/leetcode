@@ -34,7 +34,7 @@ index. Otherwise, return <code>-1</code>.
 
 #### .JS
 
-```
+```js
 var search = function (nums, target) {
     let left = 0;
     let right = nums.length - 1;
@@ -58,7 +58,7 @@ var search = function (nums, target) {
 
 #### PHP
 
-```
+```php
 class Solution
 {
     /**
@@ -88,7 +88,7 @@ class Solution
 
 -- OR --
 
-```
+```php
 class Solution____akuno
 {
     function search(array $nums, int $target): int
