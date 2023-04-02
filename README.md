@@ -63,6 +63,7 @@ Andrii Sokol*</sup>
 |<sup>0424</sup>|<sup>[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/424--longest-repeating-character-replacement.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/424--longest-repeating-character-replacement.php)</sup>|
 |<sup>0443</sup>|<sup>[String Compression](https://leetcode.com/problems/string-compression/)</sup>|<sup>Medium</sup>|<sup>x</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/443--string-compression.php)</sup>|
 |<sup>0509</sup>|<sup>[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/509--fibonacci-number.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/509--fibonacci-number.php)</sup>|
+|<sup>0589</sup>|<sup>[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0589--n-ary-tree-preorder-traversal.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0589--n-ary-tree-preorder-traversal.php)</sup>|
 |<sup>0605</sup>|<sup>[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0605--can-place-flowers.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0605--can-place-flowers.php)</sup>|
 |<sup>0704</sup>|<sup>[Binary Search](https://leetcode.com/problems/binary-search/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0704--binary-search.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0704--binary-search.php)</sup>|
 |<sup>0724</sup>|<sup>[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0724--find-pivot-index.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0724--find-pivot-index.php)</sup>|
@@ -81,7 +82,7 @@ Andrii Sokol*</sup>
 |<sup>2300</sup>|<sup>[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2300--successful-pairs-of-spells-and-potions.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2300--successful-pairs-of-spells-and-potions.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>Hard</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Sun, 02 Apr 2023 21:13:06 GMT</sub>
+<sup>Last update:  Sun, 02 Apr 2023 21:35:04 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
