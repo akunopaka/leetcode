@@ -1,13 +1,25 @@
 <?php
-//21. Merge Two Sorted Lists
-//Easy
-//You are given the heads of two sorted linked lists list1 and list2.
-//Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
-//Return the head of the merged linked list.
+// 21. Merge Two Sorted Lists
+// https://leetcode.com/problems/merge-two-sorted-lists/
+// Easy
+// You are given the heads of two sorted linked lists list1 and list2.
+// Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+// Return the head of the merged linked list.
 //
-//Example 1:
-//Input: list1 = [1,2,4], list2 = [1,3,4]
-//Output: [1,1,2,3,4,4]
+// Example 1:
+// Input: list1 = [1,2,4], list2 = [1,3,4]
+// Output: [1,1,2,3,4,4]
+// Example 2:
+// Input: list1 = [], list2 = []
+// Output: []
+// Example 3:
+// Input: list1 = [], list2 = [0]
+// Output: [0]
+//
+// Constraints:
+// The number of nodes in both lists is in the range [0, 50].
+// -100 <= Node.val <= 100
+// Both list1 and list2 are sorted in non-decreasing order.
 
 /**
  * Definition for a singly-linked list.
@@ -25,8 +37,7 @@ class ListNode
     public $val = 0;
     public $next = null;
 
-    function __construct($val = 0, $next = null)
-    {
+    function __construct($val = 0, $next = null) {
         $this->val = $val;
         $this->next = $next;
     }
@@ -40,8 +51,7 @@ class Solution1
      * @param ListNode $list2
      * @return ListNode
      */
-    function mergeTwoLists($list1, $list2)
-    {
+    function mergeTwoLists($list1, $list2) {
         $current = $head = new ListNode();
         while ($list1 != null && $list2 != null) {
             if ($list1->val < $list2->val) {
@@ -70,14 +80,12 @@ class Solution
      * @param ListNode $list2
      * @return ListNode
      */
-    function mergeTwoLists($list1, $list2)
-    {
+    function mergeTwoLists($list1, $list2) {
         $head = new ListNode();
         return $head->next = $this->getNextNode($list1, $list2);
     }
 
-    function getNextNode($list1, $list2)
-    {
+    function getNextNode($list1, $list2) {
         if ($list1 == null) {
             return $list2;
         }
@@ -122,8 +130,7 @@ printList($res1);
 $values = [];
 
 echo '</pre>';
-function printList($res)
-{
+function printList($res) {
     $temp = $res;
     if ($temp != null) {
         echo "The list contains: ";
@@ -141,14 +148,12 @@ class LinkedList
 {
     public $head;
 
-    public function __construct()
-    {
+    public function __construct() {
         $this->head = null;
     }
 
     //Add element at the start of the list
-    public function pushFront($newElement)
-    {
+    public function pushFront($newElement) {
         //1. allocate a new node
         $newNode = new ListNode();
         //2. assign data element
@@ -159,8 +164,7 @@ class LinkedList
         $this->head = $newNode;
     }
 
-    public function arrayToLinkedList($array)
-    {
+    public function arrayToLinkedList($array) {
         $this->head = null;
         foreach ($array as $value) {
             $this->pushBack($value);
@@ -169,8 +173,7 @@ class LinkedList
 
 
     // array to linked list
-    public function pushBack($newElement)
-    {
+    public function pushBack($newElement) {
         //1. allocate node
         $newNode = new ListNode();
         //2. assign data element
@@ -194,8 +197,7 @@ class LinkedList
     }
 
     //display the content of the list
-    public function printList()
-    {
+    public function printList() {
         $temp = new ListNode();
         $temp = $this->head;
         if ($temp != null) {
