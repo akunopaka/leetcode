@@ -43,6 +43,8 @@ var successfulPairs = function (spells, potions, success) {
     const spellsLength = spells.length;
     const potionsLength = potions.length;
 
+    console.log(potions);
+
     let maxSpellValueWithZeroSuccess = 0; // Optimize 1 -  max value of a spell that will never be successful
 
     for (let i = 0; i < spellsLength; i++) {
@@ -108,7 +110,7 @@ var successfulPairs__ = function (spells, potions, success) {
 };
 
 // TEST
-let spells = [5, 1, 3], potions = [1, 2, 3, 4, 5], success = 7;
+let spells = [5, 1, 3], potions = [12, 2, 3, 4, 5], success = 7;
 let res = successfulPairs(spells, potions, success);
 console.log(res);
 
