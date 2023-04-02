@@ -171,7 +171,7 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
             if (!row['php']) {
                 row['phpURL'] = 'x';
             } else row['phpURL'] = '[PHP](' + row['phpURL'] + ')';
-            let rowStr = `|<sup>${row['num']}</sup>|<sup>[${problemName}](https://leetcode.com/problems/${row['leetURL']}/)</sup>|<sup>${problemDifficulty}</sup>|<sup>${row['jsURL']}</sup>|<sup>${row['phpURL']}</sup>|\n`;
+            let rowStr = `|<sup>${row['num']}</sup>|<sup>[${problemName}](https://leetcode.com/problems/${row['leetURL']}/)</sup>|<sup>`${problemDifficulty}`</sup>|<sup>${row['jsURL']}</sup>|<sup>${row['phpURL']}</sup>|\n`;
             readmeContentData += rowStr;
         }
 
