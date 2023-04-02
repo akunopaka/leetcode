@@ -81,7 +81,7 @@ Andrii Sokol*</sup>
 |<sup>2300</sup>|<sup>[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2300--successful-pairs-of-spells-and-potions.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2300--successful-pairs-of-spells-and-potions.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>Hard</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Sun, 02 Apr 2023 21:05:16 GMT</sub>
+<sup>Last update:  Sun, 02 Apr 2023 21:13:06 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
