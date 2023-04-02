@@ -64,9 +64,10 @@ Andrii Sokol*</sup>
 |<sup>1472</sup>|<sup>[Design Browser History](https://leetcode.com/problems/design-browser-history/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1472--design-browser-history.js)</sup>|<sup>x</sup>|
 |<sup>1539</sup>|<sup>[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)</sup>|<sup>Easy</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1539--kth-missing-positive-number.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1539--kth-missing-positive-number.php)</sup>|
 |<sup>2187</sup>|<sup>[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2187--minimum-time-to-complete-trips.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2187--minimum-time-to-complete-trips.php)</sup>|
+|<sup>2300</sup>|<sup>[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)</sup>|<sup>Medium</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2300--successful-pairs-of-spells-and-potions.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2300--successful-pairs-of-spells-and-potions.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>Hard</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Sat, 01 Apr 2023 13:53:42 GMT</sub>
+<sup>Last update:  Sun, 02 Apr 2023 16:46:03 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
