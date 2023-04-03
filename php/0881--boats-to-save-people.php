@@ -29,7 +29,7 @@ class Solution
      * @param Integer $limit
      * @return Integer
      */
-    function numRescueBoats($people, $limit) {
+    function numRescueBoats(array $people, int $limit): int {
         // the idea is to collect the maximum sum to limit for each boat
         // two poiners approach
         // sort the array
