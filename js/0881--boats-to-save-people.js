@@ -56,7 +56,6 @@ var numRescueBoats = function (people, limit) {
  */
 var numRescueBoats__slow = function (people, limit) {
     people.sort((a, b) => a - b);
-
     let boatsCount = 0;
 
     while (people.length > 0) {
