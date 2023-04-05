@@ -77,11 +77,22 @@ class Solution {
 }
 
 //-- OR --
-var isValidBST = function(root, minLimit = -Infinity, maxLimit = Infinity) {
-    if( root === null ) return true;
-    if( (root.val <= minLimit) || root.val >= maxLimit ) return false;
-    return isValidBST(root.left, minLimit, root.val) && isValidBST(root.right, root.val, maxLimit);
-};
+class Solution
+{
+    /**
+     * @param TreeNode $root
+     * @return Boolean
+     */
+    function isValidBST($root, $minLimit = null, $maxLimit = null) {
+        if ($root === null) return true;
+        if (($minLimit !== null && $root->val <= $minLimit) ||
+            ($maxLimit !== null && $root->val >= $maxLimit)) {
+            return false;
+        }
+        return $this->isValidBST($root->left, $minLimit, $root->val) &&
+            $this->isValidBST($root->right, $root->val, $maxLimit);
+    }
+}
 
 //-- OR --
 class Solution
