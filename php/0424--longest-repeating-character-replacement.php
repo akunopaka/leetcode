@@ -1,31 +1,27 @@
 <?php
-// https://leetcode.com/problems/longest-repeating-character-replacement/
 // 424. Longest Repeating Character Replacement
-//Medium
-//You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
-//Return the length of the longest substring containing the same letter you can get after performing the above operations.
+// https://leetcode.com/problems/longest-repeating-character-replacement/
+// Medium
+//     You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.
+//     Return the length of the longest substring containing the same letter you can get after performing the above operations.
 //
-//Example 1:
-//Input: s = "ABAB", k = 2
-//Output: 4
-//Explanation: Replace the two 'A's with two 'B's or vice versa.
-//Example 2:
-//Input: s = "AABABBA", k = 1
-//Output: 4
-//Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
-//The substring "BBBB" has the longest repeating letters, which is 4.
-//
-//Constraints:
-//1 <= s.length <= 105
-//s consists of only uppercase English letters.
-//0 <= k <= s.length
+//     Example 1:
+//     Input: s = "ABAB", k = 2
+//     Output: 4
+//     Explanation: Replace the two 'A's with two 'B's or vice versa.
+//     Example 2:
+//     Input: s = "AABABBA", k = 1
+//     Output: 4
+//     Explanation: Replace the one 'A' in the middle with 'B' and form "AABBBBA".
+//     The substring "BBBB" has the longest repeating letters, which is 4.
+//     Constraints:
+//     1 <= s.length <= 105
+//     s consists of only uppercase English letters.
+//     0 <= k <= s.length
 
 class Solution
 {
-
-
-    public function characterReplacement11($s, $k)
-    {
+    function characterReplacement___2(string $s, int $k): int {
         $left = 0;
         $res = 0;
         $max = 0;
@@ -50,8 +46,7 @@ class Solution
      * @param Integer $k
      * @return Integer
      */
-    function characterReplacement(string $s, int $k): int
-    {
+    function characterReplacement(string $s, int $k): int {
         $longestSubstring = 0;
         $leftIndex = 0;
         $max = 0;
@@ -72,8 +67,7 @@ class Solution
     }
 
 
-    function characterReplacement___runtime_error(string $s, int $k): int
-    {
+    function characterReplacement___runtime_error(string $s, int $k): int {
         echo '<pre>' . '--------' . PHP_EOL . 'test:' . PHP_EOL;
         $longestSubstring = 0;
         $hash = [];
@@ -137,8 +131,7 @@ foreach ($cases as $case) {
  * @param $expectedOutput
  * @return void
  */
-function echoResult($result, $expectedOutput): void
-{
+function echoResult($result, $expectedOutput): void {
     echo '<pre>' . '--------' . PHP_EOL . 'Result:' . PHP_EOL;
     var_export($result);
     echo PHP_EOL . 'Valid/Expected Output is:' . PHP_EOL;
