@@ -1,27 +1,66 @@
-<?php
-// 62. Unique Paths
-// https://leetcode.com/problems/unique-paths/
-// Medium
-// There is a robot on an m x n grid. The robot is initially located at the top-left corner (i.e., grid[0][0]). The robot tries to move to the bottom-right corner (i.e., grid[m - 1][n - 1]). The robot can only move either down or right at any point in time.
-// Given the two integers m and n, return the number of possible unique paths that the robot can take to reach the bottom-right corner.
-// The test cases are generated so that the answer will be less than or equal to 2 * 109.
-//
-// Example 1:
-// Input: m = 3, n = 7
-// Output: 28
-// Example 2:
-//
-// Input: m = 3, n = 2
-// Output: 3
-// Explanation: From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
-// 1. Right -> Down -> Down
-// 2. Down -> Down -> Right
-// 3. Down -> Right -> Down
-//
-// Constraints:
-// 1 <= m, n <= 100
+### 62. Unique Paths
 
+Difficulty: `Medium`
 
+https://leetcode.com/problems/unique-paths/
+
+<p>There is a robot on an <code>m x n</code> grid. The robot is initially located at the <strong>top-left corner</strong> (i.e., <code>grid[0][0]</code>). The robot tries to move to the <strong>bottom-right corner</strong> (i.e., <code>grid[m - 1][n - 1]</code>). The robot can only move either down or right at any point in time.</p>
+
+<p>Given the two integers <code>m</code> and <code>n</code>, return <em>the number of possible unique paths that the robot can take to reach the bottom-right corner</em>.</p>
+
+<p>The test cases are generated so that the answer will be less than or equal to <code>2 * 10<sup>9</sup></code>.</p>
+
+<p><strong class="example">Example 1:</strong></p>
+<img src="https://assets.leetcode.com/uploads/2018/10/22/robot_maze.png" style="width: 400px; height: 183px;">
+<pre><strong>Input:</strong> m = 3, n = 7
+<strong>Output:</strong> 28
+</pre>
+<p><strong class="example">Example 2:</strong></p>
+<pre><strong>Input:</strong> m = 3, n = 2
+<strong>Output:</strong> 3
+<strong>Explanation:</strong> From the top-left corner, there are a total of 3 ways to reach the bottom-right corner:
+1. Right -&gt; Down -&gt; Down
+2. Down -&gt; Down -&gt; Right
+3. Down -&gt; Right -&gt; Down
+</pre>
+<p><strong>Constraints:</strong></p>
+<ul>
+	<li><code>1 &lt;= m, n &lt;= 100</code></li>
+</ul>
+<p>&nbsp;</p>
+
+### My Solution(s):
+
+##### JavaScript
+
+```js
+var uniquePaths = function (m, n) {
+    let memo = Array(m).fill(Array(n).fill(1));
+    for (let i = 1; i < m; i++) {
+        for (let j = 1; j < n; j++) {
+            memo[i][j] = memo[i - 1][j] + memo[i][j - 1];
+        }
+    }
+    return memo[m - 1][n - 1];
+};
+
+//-- OR --
+var uniquePaths = function (m, n) {
+    let paths = new Array(n).fill(1);
+
+    for (let i = 1; i < m; i++) {
+        for (let j = 1; j < n; j++) {
+            paths[j] = paths[j] + paths[j - 1];
+        }
+    }
+
+    return paths[n - 1];
+};
+```
+
+##### PHP
+
+```php
 class Solution
 {
     /**
@@ -37,11 +76,10 @@ class Solution
     }
 }
 
-
-class Solution___2
+//-- OR --
+class Solution
 {
     public array $map;
-
     /**
      * @param Integer $m
      * @param Integer $n
@@ -64,16 +102,14 @@ class Solution___2
 }
 
 
-class Solution___fromInet
-{
-
+// -- OR +4 solutions from Internet --
+class Solution___fromInet {
     /**
      * @param Integer $m
      * @param Integer $n
      * @return Integer
      */
-    function uniquePaths($m, $n)
-    {
+    function uniquePaths($m, $n) {
         $down = $m - 1;
         $right = $n - 1;
         $amount = array_fill(0, $right + 1, array_fill(0, $down + 1, 1));
@@ -106,7 +142,7 @@ class Solution___fromInet
         $queue->push([0, 0]);
         $result = 0;
 
-        while (!$queue->isEmpty()) {
+        while (! $queue->isEmpty()) {
 
             [$top, $right] = $queue->pop();
 
@@ -167,40 +203,4 @@ class Solution___fromInet
         }
     }
 }
-
-
-// Test Cases
-$cases = [];
-$cases[0]['Input']['m'] = 3;
-$cases[0]['Input']['n'] = 7;
-$cases[0]['expectedOutput'] = 28;
-$cases[1]['Input']['m'] = 3;
-$cases[1]['Input']['n'] = 2;
-$cases[1]['expectedOutput'] = 3;
-$cases[2]['Input']['m'] = 3;
-$cases[2]['Input']['n'] = 3;
-$cases[2]['expectedOutput'] = 6;
-$cases[3]['Input']['m'] = 4;
-$cases[3]['Input']['n'] = 3;
-$cases[3]['expectedOutput'] = 10;
-
-// Check solution
-foreach ($cases as $case) {
-    $solution = new Solution();
-    $result = $solution->uniquePaths($case['Input']['m'], $case['Input']['n']);
-    echoResult($result, $case['expectedOutput']);
-}
-
-/**
- * @param $result
- * @param $expectedOutput
- * @return void
- */
-function echoResult($result, $expectedOutput): void
-{
-    echo '<pre>' . '--------' . PHP_EOL . 'Result:' . PHP_EOL;
-    var_export($result);
-    echo PHP_EOL . 'Valid/Expected Output is:' . PHP_EOL;
-    var_export($expectedOutput);
-    echo '</pre>' . PHP_EOL;
-}
+```
