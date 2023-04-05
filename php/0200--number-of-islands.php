@@ -1,7 +1,7 @@
 <?php
-// https://leetcode.com/problems/number-of-islands/
 // 200. Number of Islands
-//   Medium
+// https://leetcode.com/problems/number-of-islands/
+// Medium
 //   Given an m x n 2D binary grid  which represents a map of '1's (land) and '0's (water), return the number of islands.
 //   An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 //   Example 1:
@@ -32,8 +32,7 @@ class Solution
      * @param String[][] $grid
      * @return Integer
      */
-    function numIslands($grid): int
-    {
+    function numIslands($grid): int {
 //        m == grid.length
 //        n == grid[i].length
 //        1 <= m, n <= 300
@@ -55,8 +54,7 @@ class Solution
         return $islandsCount;
     }
 
-    function checkNeighbours(&$grid, $i, $j): void
-    {
+    function checkNeighbours(&$grid, $i, $j): void {
         if (!isset($grid[$i][$j]) || $grid[$i][$j] != 1) return;
         $grid[$i][$j] = '2';
         $neighbours = [
@@ -79,8 +77,7 @@ class Solution___2
      * @param String[][] $grid
      * @return Integer
      */
-    function numIslands($grid): int
-    {
+    function numIslands($grid): int {
 //        m == grid.length
 //        n == grid[i].length
 //        1 <= m, n <= 300
@@ -102,8 +99,7 @@ class Solution___2
         return $islandsCount;
     }
 
-    function checkNeighbours(&$grid, $i, $j): void
-    {
+    function checkNeighbours(&$grid, $i, $j): void {
         if (!isset($grid[$i][$j]) || $grid[$i][$j] != 1) return;
         $grid[$i][$j] = '2'; // 0
         $this->checkNeighbours($grid, $i - 1, $j);
@@ -153,8 +149,7 @@ foreach ($cases as $case) {
  * @param $expectedOutput
  * @return void
  */
-function echoResult($result, $expectedOutput): void
-{
+function echoResult($result, $expectedOutput): void {
     echo '<pre>' . '--------' . PHP_EOL . 'Result:' . PHP_EOL;
     var_export($result);
     echo PHP_EOL . 'Valid/Expected Output is:' . PHP_EOL;
