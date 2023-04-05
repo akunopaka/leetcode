@@ -1,32 +1,78 @@
-// https://leetcode.com/problems/number-of-islands/
-// 200. Number of Islands
+### 200. Number of Islands
 
-// .JS
+Difficulty: `Medium`
+
+https://leetcode.com/problems/number-of-islands/
+
+
+<p>Given an <code>m x n</code> 2D binary grid <code>grid</code> which represents a map of <code>'1'</code>s (land) and <code>'0'</code>s (water), return <em>the number of islands</em>.</p>
+
+<p>An <strong>island</strong> is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.</p>
+
+<p><strong class="example">Example 1:</strong></p>
+
+<pre><strong>Input:</strong> grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+<strong>Output:</strong> 1
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre><strong>Input:</strong> grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+<strong>Output:</strong> 3
+</pre>
+
+<p><strong>Constraints:</strong></p>
+<ul>
+	<li><code>m == grid.length</code></li>
+	<li><code>n == grid[i].length</code></li>
+	<li><code>1 &lt;= m, n &lt;= 300</code></li>
+	<li><code>grid[i][j]</code> is <code>'0'</code> or <code>'1'</code>.</li>
+</ul>
+<p>&nbsp;</p>
+
+### My Solution(s):
+
+##### JavaScript
+
+```js
+/**
+ * @param {character[][]} grid
+ * @return {number}
+ */
 var numIslands = function (grid) {
-    let islandsCount = 0;
-    const [m,n] = [grid.length, grid[0].length];
-    const checkNeighbours = function (rowIndex, columnIndex) {
-        if (grid[rowIndex] == undefined ||
-            grid[rowIndex][columnIndex] === undefined ||
-            grid[rowIndex][columnIndex] != '1')
-            return;
-        grid[rowIndex][columnIndex] = '2';
-        checkNeighbours(rowIndex - 1, columnIndex);
-        checkNeighbours(rowIndex + 1, columnIndex);
-        checkNeighbours(rowIndex, columnIndex - 1);
-        checkNeighbours(rowIndex, columnIndex + 1);
-        return;
-    }
-    for (let i = 0; i < m; i++) {
-        for (let j = 0; j < n; j++) {
-            if (grid[i][j] === '1') {
-                checkNeighbours(i, j);
-                islandsCount++;
+        let islandsCount = 0;
+        const [m, n] = [grid.length, grid[0].length];
+        const checkNeighbours = function (rowIndex, columnIndex) {
+            if (grid[rowIndex] == undefined ||
+                grid[rowIndex][columnIndex] === undefined ||
+                grid[rowIndex][columnIndex] != '1')
+                return;
+            grid[rowIndex][columnIndex] = '2';
+            checkNeighbours(rowIndex - 1, columnIndex);
+            checkNeighbours(rowIndex + 1, columnIndex);
+            checkNeighbours(rowIndex, columnIndex - 1);
+            checkNeighbours(rowIndex, columnIndex + 1);
+        }
+        for (let i = 0; i < m; i++) {
+            for (let j = 0; j < n; j++) {
+                if (grid[i][j] === '1') {
+                    checkNeighbours(i, j);
+                    islandsCount++;
+                }
             }
         }
-    }
-    return islandsCount;
-};
+        return islandsCount;
+    };
 //-- OR --
 var numIslands = function (grid) {
     if (grid.length === 0) return 0;
@@ -79,15 +125,20 @@ var numIslands = function (grid) {
     }
     return count;
 };
+```
 
+##### PHP
 
-// PHP
-    function numIslands($grid): int
-    {
+```php
+class Solution {
+    /**
+     * @param String[][] $grid
+     * @return Integer
+     */
+   function numIslands($grid): int {
         $islandsCount = 0;
         $m = count($grid);     // y
         $n = count($grid[0]);  // x
-
         for ($i = 0; $i < $m; $i++) {
             for ($j = 0; $j < $n; $j++) {
                 $zone = $grid[$i][$j];
@@ -100,15 +151,13 @@ var numIslands = function (grid) {
         return $islandsCount;
     }
 
-    function checkNeighbours(&$grid, $i, $j): void
-    {
+    function checkNeighbours(&$grid, $i, $j): void {
         if (!isset($grid[$i][$j]) || $grid[$i][$j] != 1) return;
         $grid[$i][$j] = '2'; // 0
         $this->checkNeighbours($grid, $i-1, $j);
         $this->checkNeighbours($grid, $i+1, $j);
         $this->checkNeighbours($grid, $i, $j-1);
         $this->checkNeighbours($grid, $i, $j+1);
-
         // $neighbours = [
         //     [$i - 1, $j], // top
         //     [$i + 1, $j], // bottom
@@ -120,4 +169,12 @@ var numIslands = function (grid) {
         // }
         return;
     }
-//-- OR --
+}
+```
+
+
+
+
+
+
+
