@@ -1,8 +1,8 @@
 #### 704. Binary Search
 
-https://leetcode.com/problems/binary-search/
+Difficulty: `Easy`
 
-Easy
+https://leetcode.com/problems/binary-search/
 
 Given an array of integers <code>nums</code> which is sorted in ascending order, and an integer <code>target</code>,
 write a function to search <code>target</code> in <code>nums</code>. If <code>target</code> exists, then return its
@@ -32,7 +32,9 @@ index. Otherwise, return <code>-1</code>.
 	<li><code>nums</code> is sorted in ascending order.</li>
 </ul>
 
-#### .JS
+### My Solution(s):
+
+##### JavaScript
 
 ```js
 var search = function (nums, target) {
