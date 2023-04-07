@@ -4,6 +4,8 @@ Difficulty: `Medium`
 
 https://leetcode.com/problems/bulls-and-cows/
 
+My Solution on LeetCode:
+https://leetcode.com/discuss/topic/3388273/javascriptphp-fast-simple-counting-with-hashmap/
 
 <p>You are playing the <strong><a href="https://en.wikipedia.org/wiki/Bulls_and_Cows" target="_blank">Bulls and Cows</a></strong> game with your friend.</p>
 
@@ -132,12 +134,8 @@ var getHint = function (secret, guess) {
     for (let i = 0; i < secretLength; i++) {
         if (secret[i] === guess[i]) bull++;
         else {
-            map[secret[i]]++;
-            map[guess[i]]--;
-            if (map[secret[i]] <= 0) cow++;
-            if (map[guess[i]] >= 0) cow++;
-            // cow += map[secret[i]] <= 0 ? 1 : 0;
-            // cow += map[guess[i]] >= 0 ? 1 : 0;
+            if (++map[secret[i]] <= 0) cow++;
+            if (--map[guess[i]] >= 0) cow++;
         }
     }
     return `${bull}A${cow}B`;

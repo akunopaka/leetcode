@@ -2,6 +2,9 @@
 // https://leetcode.com/problems/bulls-and-cows/
 // Medium
 //
+//  My Solution on LeetCode:
+//  https://leetcode.com/discuss/topic/3388273/javascriptphp-fast-simple-counting-with-hashmap/
+//
 //     You are playing the Bulls and Cows game with your friend.
 //     You write down a secret number and ask your friend to guess what the number is. When your friend makes a guess, you provide a hint with the following info:
 //     The number of "bulls", which are digits in the guess that are in the correct position.
@@ -69,10 +72,10 @@ var getHint = function (secret, guess) {
     for (let i = 0; i < secretLength; i++) {
         if (secret[i] === guess[i]) bull++;
         else {
-            map[secret[i]]++;
-            map[guess[i]]--;
-            if (map[secret[i]] <= 0) cow++;
-            if (map[guess[i]] >= 0) cow++;
+            // map[secret[i]]++;
+            // map[guess[i]]--;
+            if (++map[secret[i]] <= 0) cow++;
+            if (--map[guess[i]] >= 0) cow++;
             // cow += map[secret[i]] <= 0 ? 1 : 0;
             // cow += map[guess[i]] >= 0 ? 1 : 0;
         }
