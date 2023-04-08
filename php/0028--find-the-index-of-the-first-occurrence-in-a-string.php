@@ -35,6 +35,7 @@
 //Loop through the haystack and compare with needle. If mismatch occurs, move the haystack index by the occurs before array.
 //https://en.wikipedia.org/wiki/Knuth–Morris–Pratt_algorithm
 
+
 class Solution
 {
     /**
@@ -42,8 +43,7 @@ class Solution
      * @param String $needle
      * @return Integer
      */
-    function strStr(string $haystack, string $needle): int
-    {
+    function strStr(string $haystack, string $needle): int {
         // Solution #1 - Built-in function
         $pos = strpos($haystack, $needle);
         return $pos === false ? -1 : $pos;
@@ -153,8 +153,7 @@ foreach ($cases as $case) {
  * @param $expectedOutput
  * @return void
  */
-function echoResult($result, $expectedOutput): void
-{
+function echoResult($result, $expectedOutput): void {
     echo '<pre>' . PHP_EOL . '-------' . PHP_EOL . 'Result:' . PHP_EOL . var_export($result, true) . PHP_EOL;
     if ($result != $expectedOutput) echo PHP_EOL . '!!! >>FAIL<< !!!' . PHP_EOL . 'Valid/Expected Output is: ' . PHP_EOL . var_export($expectedOutput, true);
     else echo ' << OK!' . PHP_EOL;
