@@ -1,6 +1,7 @@
 // 206. Reverse Linked List
 // https://leetcode.com/problems/reverse-linked-list/
 // Easy
+//
 // Given the head of a singly linked list, reverse the list, and return the reversed list.
 //
 // Example 1:
@@ -41,7 +42,6 @@ var reverseList = function (head) {
 };
 
 // SOLUTION 2
-
 var reverseList______2 = function (head) {
     let prevNode = null;
     let currentNode = head;
