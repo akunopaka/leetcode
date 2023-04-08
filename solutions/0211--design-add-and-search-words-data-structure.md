@@ -1,38 +1,52 @@
-// 211. Design Add and Search Words Data Structure
-// https://leetcode.com/problems/design-add-and-search-words-data-structure/
-// Medium
-// Design a data structure that supports adding new words and finding if a string matches any previously added string.
-//
-// Implement the WordDictionary class:
-// WordDictionary() Initializes the object.
-// void addWord(word) Adds word to the data structure, it can be matched later.
-// bool search(word) Returns true if there is any string in the data structure that matches word or false otherwise. word may contain dots '.' where dots can be matched with any letter.
-// Example:
-// Input
-// ["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
-// [[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]
-// Output
-// [null,null,null,null,false,true,true,true]
-//
-// Explanation
-// WordDictionary wordDictionary = new WordDictionary();
-// wordDictionary.addWord("bad");
-// wordDictionary.addWord("dad");
-// wordDictionary.addWord("mad");
-// wordDictionary.search("pad"); // return False
-// wordDictionary.search("bad"); // return True
-// wordDictionary.search(".ad"); // return True
-// wordDictionary.search("b.."); // return True
-//
-// Constraints:
-// 1 <= word.length <= 25
-// word in addWord consists of lowercase English letters.
-// word in search consist of '.' or lowercase English letters.
-// There will be at most 3 dots in word for search queries.
-// At most 104 calls will be made to addWord and search.
+### 211. Design Add and Search Words Data Structure
 
+Difficulty: `Medium`
 
-// .JS
+https://leetcode.com/problems/design-add-and-search-words-data-structure/
+
+<p>Design a data structure that supports adding new words and finding if a string matches any previously added string.</p>
+
+<p>Implement the <code>WordDictionary</code> class:</p>
+
+<ul>
+	<li><code>WordDictionary()</code>&nbsp;Initializes the object.</li>
+	<li><code>void addWord(word)</code> Adds <code>word</code> to the data structure, it can be matched later.</li>
+	<li><code>bool search(word)</code>&nbsp;Returns <code>true</code> if there is any string in the data structure that matches <code>word</code>&nbsp;or <code>false</code> otherwise. <code>word</code> may contain dots <code>'.'</code> where dots can be matched with any letter.</li>
+</ul>
+
+<p><strong class="example">Example:</strong></p>
+
+<pre><strong>Input</strong>
+["WordDictionary","addWord","addWord","addWord","search","search","search","search"]
+[[],["bad"],["dad"],["mad"],["pad"],["bad"],[".ad"],["b.."]]
+<strong>Output</strong>
+[null,null,null,null,false,true,true,true]
+
+<strong>Explanation</strong>
+WordDictionary wordDictionary = new WordDictionary();
+wordDictionary.addWord("bad");
+wordDictionary.addWord("dad");
+wordDictionary.addWord("mad");
+wordDictionary.search("pad"); // return False
+wordDictionary.search("bad"); // return True
+wordDictionary.search(".ad"); // return True
+wordDictionary.search("b.."); // return True
+</pre>
+<p><strong>Constraints:</strong></p>
+<ul>
+	<li><code>1 &lt;= word.length &lt;= 25</code></li>
+	<li><code>word</code> in <code>addWord</code> consists of lowercase English letters.</li>
+	<li><code>word</code> in <code>search</code> consist of <code>'.'</code> or lowercase English letters.</li>
+	<li>There will be at most <code>2</code> dots in <code>word</code> for <code>search</code> queries.</li>
+	<li>At most <code>10<sup>4</sup></code> calls will be made to <code>addWord</code> and <code>search</code>.</li>
+</ul>
+<p>&nbsp;</p>
+
+### My Solution(s):
+
+##### JavaScript
+
+```js
 // SOLUTION 00 - implement a trie
 var WordDictionary = function () {
     this.trie = {};
@@ -167,11 +181,11 @@ WordDictionary.prototype.search = function (word) {
  * obj.addWord(word)
  * var param_2 = obj.search(word)
  */
+```
 
+##### PHP
 
-// PHP
-
-
+```php
 class TrieNode
 {
     public $children = [];
@@ -234,3 +248,4 @@ class WordDictionary
         }
     }
 }
+```
