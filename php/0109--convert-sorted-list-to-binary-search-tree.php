@@ -2,6 +2,7 @@
 // 109. Convert Sorted List to Binary Search Tree
 // https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
 // Medium
+//
 // Given the head of a singly linked list where elements are sorted in ascending order, convert it to a
 // height-balanced binary search tree.
 //
@@ -25,8 +26,7 @@ class Solution
      * @param ListNode $head
      * @return TreeNode
      */
-    function sortedListToBST($head)
-    {
+    function sortedListToBST($head) {
         if ($head == null) {
             return null;
         }
@@ -73,8 +73,7 @@ class TreeNode
     public $left = null;
     public $right = null;
 
-    function __construct($val = 0, $left = null, $right = null)
-    {
+    function __construct($val = 0, $left = null, $right = null) {
         $this->val = $val;
         $this->left = $left;
         $this->right = $right;
@@ -98,8 +97,7 @@ class ListNode
     public $val = 0;
     public $next = null;
 
-    function __construct($val = 0, $next = null)
-    {
+    function __construct($val = 0, $next = null) {
         $this->val = $val;
         $this->next = $next;
     }
@@ -110,14 +108,12 @@ class LinkedList
 {
     public $head;
 
-    public function __construct($head = null)
-    {
+    public function __construct($head = null) {
         $this->head = $head;
     }
 
     //Add element at the start of the list
-    public function pushFront($newElement)
-    {
+    public function pushFront($newElement) {
         //1. allocate a new node
         $newNode = new ListNode();
         //2. assign data element
@@ -128,8 +124,7 @@ class LinkedList
         $this->head = $newNode;
     }
 
-    public function arrayToLinkedList($array)
-    {
+    public function arrayToLinkedList($array) {
         $this->head = null;
         foreach ($array as $value) {
             $this->pushBack($value);
@@ -138,8 +133,7 @@ class LinkedList
 
     // array to linked list
 
-    public function pushBack($newElement)
-    {
+    public function pushBack($newElement) {
         //1. allocate node
         $newNode = new ListNode();
         //2. assign data element
@@ -164,8 +158,7 @@ class LinkedList
 
     //display the content of the list
 
-    public function printList()
-    {
+    public function printList() {
         $temp = new ListNode();
         $temp = $this->head;
         if ($temp != null) {
@@ -218,8 +211,7 @@ foreach ($cases as $case) {
  * @param $expectedOutput
  * @return void
  */
-function echoResult($result, $expectedOutput): void
-{
+function echoResult($result, $expectedOutput): void {
     echo '<pre>' . PHP_EOL . '-------' . PHP_EOL . 'Result:' . PHP_EOL . var_export($result, true) . PHP_EOL;
     if ($result != $expectedOutput) echo PHP_EOL . '!!! >>FAIL<< !!!' . PHP_EOL . 'Valid/Expected Output is: ' . PHP_EOL . var_export($expectedOutput, true);
     else echo ' << OK!' . PHP_EOL;
