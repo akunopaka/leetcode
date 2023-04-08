@@ -39,7 +39,7 @@ Andrii Sokol*</sup>
 |   #   | Name  | Difficulty | JS   | PHP  |
 |-------|-------|-------|------|------|
 |<sup>0001</sup>|<sup>[Two Sum](https://leetcode.com/problems/two-sum/)</sup>|<sup>`Easy`</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0001--two-sum.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0001--two-sum.php)</sup>|
-|<sup>0007</sup>|<sup>[Reverse Integer](https://leetcode.com/problems/reverse-integer/)</sup>|<sup>`Medium`</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/7--reverse-integer.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/7--reverse-integer.php)</sup>|
+|<sup>0007</sup>|<sup>[Reverse Integer](https://leetcode.com/problems/reverse-integer/)</sup>|<sup>`Medium`</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0007--reverse-integer.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0007--reverse-integer.php)</sup>|
 |<sup>0021</sup>|<sup>[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)</sup>|<sup>`Easy`</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0021--merge-two-sorted-lists.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0021--merge-two-sorted-lists.php)</sup>|
 |<sup>0023</sup>|<sup>[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)</sup>|<sup>`Hard`</sup>|<sup>x</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0023--merge-k-sorted-lists.php)</sup>|
 |<sup>0028</sup>|<sup>[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)</sup>|<sup>`Easy`</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/28--find-the-index-of-the-first-occurrence-in-a-string.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/28--find-the-index-of-the-first-occurrence-in-a-string.php)</sup>|
@@ -96,7 +96,7 @@ Andrii Sokol*</sup>
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Sat, 08 Apr 2023 01:43:24 GMT</sub>
+<sup>Last update:  Sat, 08 Apr 2023 14:38:17 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
