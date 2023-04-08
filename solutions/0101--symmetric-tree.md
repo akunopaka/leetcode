@@ -1,21 +1,38 @@
-// 101. Symmetric Tree
-// https://leetcode.com/problems/symmetric-tree/
-// Easy
-//Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
-//Example 1:
-//Input: root = [1,2,2,3,4,4,3]
-//Output: true
-//Example 2:
-//Input: root = [1,2,2,null,3,null,3]
-//Output: false
-//Constraints:
-//The number of nodes in the tree is in the range [1, 1000].
-//-100 <= Node.val <= 100
-//Follow up: Could you solve it both recursively and iteratively?
+### 101. Symmetric Tree
 
+Difficulty: `Easy`
 
+https://leetcode.com/problems/symmetric-tree/
 
-// .JS
+<p>Given the <code>root</code> of a binary tree, <em>check whether it is a mirror of itself</em> (i.e., symmetric around its center).</p>
+
+<p><strong class="example">Example 1:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/symtree1.jpg" style="width: 354px; height: 291px;">
+<pre><strong>Input:</strong> root = [1,2,2,3,4,4,3]
+<strong>Output:</strong> true
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/symtree2.jpg" style="width: 308px; height: 258px;">
+<pre><strong>Input:</strong> root = [1,2,2,null,3,null,3]
+<strong>Output:</strong> false
+</pre>
+
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li>The number of nodes in the tree is in the range <code>[1, 1000]</code>.</li>
+	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
+</ul>
+
+<strong>Follow up:</strong> Could you solve it both recursively and iteratively?</div>
+<p>&nbsp;</p>
+
+### My Solution(s):
+
+##### JavaScript
+
+```js
 // 1. Recursive Solution
 var isSymmetric = function (root) {
     if (root == null) return true;
@@ -32,7 +49,6 @@ var isSymmetric = function (root) {
 };
 
 // -- OR --
-
 // 2. Iterative Solution
 var isSymmetric = function (root) {
     if (root == null) return true;
@@ -51,8 +67,11 @@ var isSymmetric = function (root) {
     }
     return true;
 }
+```
 
-// PHP
+##### PHP
+
+```php
 // Iterative Solution
 class Solution
 {
@@ -118,3 +137,4 @@ class Solution
             $this->isNodesMirror($leftNode->right, $rightNode->left);
     }
 }
+```

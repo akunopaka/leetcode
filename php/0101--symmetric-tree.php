@@ -2,6 +2,7 @@
 // 101. Symmetric Tree
 // https://leetcode.com/problems/symmetric-tree/
 // Easy
+//
 //Given the root of a binary tree, check whether it is a mirror of itself (i.e., symmetric around its center).
 //Example 1:
 //Input: root = [1,2,2,3,4,4,3]
@@ -35,8 +36,7 @@ class Solution
      * @param TreeNode $root
      * @return Boolean
      */
-    function isSymmetric(?TreeNode $root): bool
-    {
+    function isSymmetric(?TreeNode $root): bool {
         if ($root === null) {
             return true;
         }
@@ -70,16 +70,14 @@ class Solution_recursive
      * @param TreeNode $root
      * @return Boolean
      */
-    function isSymmetric(?TreeNode $root): bool
-    {
+    function isSymmetric(?TreeNode $root): bool {
         if ($root === null) {
             return true;
         }
         return $this->isNodesMirror($root->left, $root->right);
     }
 
-    function isNodesMirror(?TreeNode $leftNode, ?TreeNode $rightNode): bool
-    {
+    function isNodesMirror(?TreeNode $leftNode, ?TreeNode $rightNode): bool {
         if ($leftNode === null && $rightNode === null) {
             return true;
         }
