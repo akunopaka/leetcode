@@ -2,7 +2,7 @@
 // 106. Construct Binary Tree from Inorder and Postorder Traversal
 // https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 // Medium
-// Companies
+//
 // Given two integer arrays inorder and postorder where inorder is the inorder traversal of a binary tree and postorder is the postorder traversal of the same tree, construct and return the binary tree.
 //
 // Example 1:
@@ -20,7 +20,6 @@
 // Each value of postorder also appears in inorder.
 // inorder is guaranteed to be the inorder traversal of the tree.
 // postorder is guaranteed to be the postorder traversal of the tree.
-
 
 /**
  * Definition for a binary tree node.
@@ -42,8 +41,7 @@ class Solution____2
      * @param Integer[] $postorder
      * @return TreeNode
      */
-    function buildTree(array $inorder, array $postorder): ?TreeNode
-    {
+    function buildTree(array $inorder, array $postorder): ?TreeNode {
         $build = function (int $inStart, int $inEnd, int $postStart, int $postEnd) use (&$build, $inorder, $postorder) {
             if ($inStart > $inEnd) {
                 return null;
@@ -68,8 +66,7 @@ class Solution
      * @param Integer[] $postorder
      * @return TreeNode
      */
-    function buildTree(array $inorder, array $postorder): ?TreeNode
-    {
+    function buildTree(array $inorder, array $postorder): ?TreeNode {
         if (empty($inorder) || empty($postorder)) {
             return null;
         }
