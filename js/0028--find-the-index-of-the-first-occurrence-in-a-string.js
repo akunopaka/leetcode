@@ -1,8 +1,11 @@
 // 28. Find the Index of the First Occurrence in a String
 // https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 // Medium
-// Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 //
+//   My Solution on LeetCode:
+//   https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/3253386/javascript-php-6-solutions-with-explanation-simple-and-understandable/
+//
+// Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
 //Example 1:
 //Input: haystack = "sadbutsad", needle = "sad"
 //Output: 0
