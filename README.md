@@ -37,7 +37,7 @@ Andrii Sokol*</sup>
 
 <!-- LeetCode Solutions Table -->
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
-|-------|-------|-------|------|------|
+|-------|-------|-------|------|------|------|
 |<sup>0001</sup>|<sup>[Two Sum](https://leetcode.com/problems/two-sum/)</sup>|<sup>`Easy`</sup>|<sup>[Solutions]()</sup>|<sup>[JS](x)</sup>|<sup>[PHP](x)</sup>|
 |<sup>0007</sup>|<sup>[Reverse Integer](https://leetcode.com/problems/reverse-integer/)</sup>|<sup>`Medium`</sup>|<sup>[Solutions]()</sup>|<sup>[JS](x)</sup>|<sup>[PHP](x)</sup>|
 |<sup>0020</sup>|<sup>[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</sup>|<sup>`Easy`</sup>|<sup>[Solutions]()</sup>|<sup>[JS](x)</sup>|<sup>[PHP](x)</sup>|
@@ -98,7 +98,7 @@ Andrii Sokol*</sup>
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Solutions]()</sup>|<sup>[JS](x)</sup>|<sup>[PHP](x)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Solutions]()</sup>|<sup>[JS](x)</sup>|<sup>[PHP](x)</sup>|
 
-<sup>Last update:  Mon, 10 Apr 2023 16:08:15 GMT</sub>
+<sup>Last update:  Mon, 10 Apr 2023 16:12:11 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
