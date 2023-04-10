@@ -156,7 +156,7 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
         };
 
         let solvedProblems = await getSolvedProblemArray(`GET /repos/${username}/${repo}/contents`);
-        let readmeContentData = '\n' + '|   #   | Name  | Difficulty | Solutions | JS | PHP  |\n' + '|-------|-------|-------|------|------|\n';
+        let readmeContentData = '\n' + '|   #   | Name  | Difficulty | Solutions | JS | PHP  |\n' + '|-------|-------|-------|------|------|------|\n';
         for (const problemID in solvedProblems) {
             let problemInfoData = await getProblemMetaInfo(problemsMetaJson, problemID);
 
