@@ -134,6 +134,9 @@ const getLeetCodeStats = async () => {
         const res = await octokit.request("POST https://leetcode.com/graphql", {
             query: `{ matchedUser(username: "akunopaka") { username submitStats: submitStatsGlobal { acSubmissionNum { difficulty count submissions } } } }`
         });
+        if (res.status !== 200) {
+            console.error("Get Request failed, with error: ", res.status);
+        }
         return res;
     } catch (e) {
         console.error("Get Request failed, with error: ", e.message);
@@ -158,9 +161,7 @@ const getLeetCodeStats = async () => {
 
 
         let leetCodeStat = await getLeetCodeStats();
-        if (leetCodeStat.status !== 200) {
-            throw new Error("Get LeetCode Stats Failed");
-        }
+
         leetCodeStat = leetCodeStat.data.data.matchedUser.submitStats.acSubmissionNum;
         console.log(leetCodeStat);
         let statString = "| Difficulty | Count | Submissions |";
@@ -202,7 +203,7 @@ const getLeetCodeStats = async () => {
         // Add last update time
         let currentTime = new Date();
         readmeContentData += '\n' + `<sup>Last update:  ${currentTime.toUTCString()}</sub>` + '\n';
-        readmeContentData = '\n' + `<sup>LeetCode Stats:  ${statString}</sub>` + '\n' + readmeContentData;
+        readmeContentData = '\n' + `My LeetCode Stats: \n ${statString}` + '\n' + readmeContentData;
         console.log('Get README.md.');
         const readmeTextSource = await getRequest(`GET /repos/${username}/${repo}/contents/${readmePath}`);
         const sha1 = readmeTextSource.data.sha;
