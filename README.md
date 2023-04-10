@@ -36,8 +36,13 @@ Andrii Sokol*</sup>
 ### My LeetCode Solutions
 
 <!-- LeetCode Solutions Table -->
-My LeetCode Stats: 
- | Difficulty | Count | Submissions || All | 71 | 513 || Easy | 26 | 245 || Medium | 37 | 248 || Hard | 8 | 20 |
+My LeetCode Stats:
+
+| Difficulty | Count | Submissions |
+| All | 71 | 513 |
+| Easy | 26 | 245 |
+| Medium | 37 | 248 |
+| Hard | 8 | 20 |
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
 |-------|-------|-------|------|------|------|
