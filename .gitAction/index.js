@@ -129,6 +129,19 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
     return res;
 }
 
+const getLeetCodeStats = async () => {
+    try {
+        const res = await octokit.request("POST https://leetcode.com/graphql", {
+            query: `{ matchedUser(username: "akunopaka") { username submitStats: submitStatsGlobal { acSubmissionNum { difficulty count submissions } } } }`
+        });
+        return res;
+    } catch (e) {
+        console.error("Get Request failed, with error: ", e.message);
+        core.setFailed("Failed: " + e.message);
+        throw new Error(e.message);
+    }
+}
+
 (async () => {
     try {
         const username = GITHUB_REPOSITORY.split("/")[0];
@@ -142,6 +155,18 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
         //     let lastCommitDate = value.commit.author.date;
         //     let lastCommitUrl = value.html_url;
         // }
+
+
+        let leetCodeStat = await getLeetCodeStats();
+        if (leetCodeStat.status !== 200) {
+            throw new Error("Get LeetCode Stats Failed");
+        }
+        leetCodeStat = leetCodeStat.data.data.matchedUser.submitStats.acSubmissionNum;
+        console.log(leetCodeStat);
+        let statString = "| Difficulty | Count | Submissions |";
+        for (const value of leetCodeStat) {
+            statString += `| ${value.difficulty} | ${value.count} | ${value.submissions} |`;
+        }
 
 
         const problemsMetaJson = JSON.parse(await getLeetcodeProblemsListJsonData());
@@ -177,7 +202,7 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
         // Add last update time
         let currentTime = new Date();
         readmeContentData += '\n' + `<sup>Last update:  ${currentTime.toUTCString()}</sub>` + '\n';
-
+        readmeContentData = '\n' + `<sup>LeetCode Stats:  ${statString}</sub>` + '\n' + readmeContentData;
         console.log('Get README.md.');
         const readmeTextSource = await getRequest(`GET /repos/${username}/${repo}/contents/${readmePath}`);
         const sha1 = readmeTextSource.data.sha;
