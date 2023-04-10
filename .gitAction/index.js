@@ -164,11 +164,14 @@ const getLeetCodeStats = async () => {
 
         leetCodeStat = leetCodeStat.data.data.matchedUser.submitStats.acSubmissionNum;
         console.log(leetCodeStat);
-        let statString = "| Difficulty | Count |  \n|-------|-------|\n";
+        // let statString = "| Difficulty | Count |  \n|-------|-------|\n";
+        let statString1 = "| Difficulty  | ";
+        let statString2 = "| Count | ";
         for (const value of leetCodeStat) {
-            statString += `| ${value.difficulty} | ${value.count} | `;
+            statString1 += ` ${value.difficulty} |`;
+            statString2 += ` ${value.count} | `;
         }
-
+        let statString = statString1 + "\n" + statString2 + "\n";
 
         const problemsMetaJson = JSON.parse(await getLeetcodeProblemsListJsonData());
         // console.log(problemsMetaJson);
