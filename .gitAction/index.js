@@ -166,12 +166,9 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
             let problemDifficulty = problemInfoData.difficulty ? Difficulty[problemInfoData.difficulty] : '';
 
 
-            row['jsURL'] = 'x';
-            row['phpURL'] = 'x';
-            row['solutionsURL'] = '';
-            if (row['js']) row['jsURL'] = '[JS](' + row['jsURL'] + ')';
-            if (row['php']) row['phpURL'] = '[PHP](' + row['phpURL'] + ')';
-            if (row['solutions']) row['solutionsURL'] = '[Solutions](' + row['solutionsURL'] + ')';
+            row['jsURL'] = (row['js']) ? '[JS](' + row['jsURL'] + ')' : 'x';
+            row['phpURL'] = (row['php']) ? '[PHP](' + row['phpURL'] + ')' : 'x';
+            row['solutionsURL'] = (row['solutions']) ? '[Git Solution](' + row['solutionsURL'] + ')' : '';
 
             let rowStr = `|<sup>${row['num']}</sup>|<sup>[${problemName}](https://leetcode.com/problems/${row['leetURL']}/)</sup>|<sup>\`${problemDifficulty}\`</sup>|<sup>${row['solutionsURL']}</sup>|<sup>${row['jsURL']}</sup>|<sup>${row['phpURL']}</sup>|\n`;
             readmeContentData += rowStr;
