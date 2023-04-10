@@ -80,7 +80,7 @@ const toTitleCase = (phrase) => {
         .join(' ');
 };
 
-const getSolvedProblemArray = async (url, checkFolderArr = ['php', 'js']) => {
+const getSolvedProblemArray = async (url, checkFolderArr = ['php', 'js', 'solutions']) => {
     const solvedProblemsArray = {};
     for (const lang of checkFolderArr) {
         const filesList = await getRequest(`${url}/${lang}/`);
@@ -156,7 +156,7 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
         };
 
         let solvedProblems = await getSolvedProblemArray(`GET /repos/${username}/${repo}/contents`);
-        let readmeContentData = '\n' + '|   #   | Name  | Difficulty | JS   | PHP  |\n' + '|-------|-------|-------|------|------|\n';
+        let readmeContentData = '\n' + '|   #   | Name  | Difficulty | Solutions | JS | PHP  |\n' + '|-------|-------|-------|------|------|\n';
         for (const problemID in solvedProblems) {
             let problemInfoData = await getProblemMetaInfo(problemsMetaJson, problemID);
 
@@ -165,13 +165,15 @@ async function getProblemMetaInfo(problemsMetaJson, problemID) {
             // let problemSlug = problemInfoData.question_title_slug ? problemInfoData.question_title_slug : row['leetURL'];
             let problemDifficulty = problemInfoData.difficulty ? Difficulty[problemInfoData.difficulty] : '';
 
-            if (!row['js']) {
-                row['jsURL'] = 'x';
-            } else row['jsURL'] = '[JS](' + row['jsURL'] + ')';
-            if (!row['php']) {
-                row['phpURL'] = 'x';
-            } else row['phpURL'] = '[PHP](' + row['phpURL'] + ')';
-            let rowStr = `|<sup>${row['num']}</sup>|<sup>[${problemName}](https://leetcode.com/problems/${row['leetURL']}/)</sup>|<sup>\`${problemDifficulty}\`</sup>|<sup>${row['jsURL']}</sup>|<sup>${row['phpURL']}</sup>|\n`;
+
+            row['jsURL'] = 'x';
+            row['phpURL'] = 'x';
+            row['solutionsURL'] = '';
+            if (row['js']) row['jsURL'] = '[JS](' + row['jsURL'] + ')';
+            if (row['php']) row['phpURL'] = '[PHP](' + row['phpURL'] + ')';
+            if (row['solutions']) row['solutionsURL'] = '[Solutions](' + row['solutionsURL'] + ')';
+
+            let rowStr = `|<sup>${row['num']}</sup>|<sup>[${problemName}](https://leetcode.com/problems/${row['leetURL']}/)</sup>|<sup>\`${problemDifficulty}\`</sup>|<sup>${row['solutionsURL']}</sup>|<sup>${row['jsURL']}</sup>|<sup>${row['phpURL']}</sup>|\n`;
             readmeContentData += rowStr;
         }
 
