@@ -164,9 +164,9 @@ const getLeetCodeStats = async () => {
 
         leetCodeStat = leetCodeStat.data.data.matchedUser.submitStats.acSubmissionNum;
         console.log(leetCodeStat);
-        let statString = "| Difficulty | Count | Submissions |";
+        let statString = "| Difficulty | Count |  \n|-------|-------|\n";
         for (const value of leetCodeStat) {
-            statString += `| ${value.difficulty} | ${value.count} | ${value.submissions} |`;
+            statString += `| ${value.difficulty} | ${value.count} | `;
         }
 
 
