@@ -39,7 +39,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  71 |  26 |  37 |  8 | 
+| Count |  72 |  26 |  38 |  8 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -100,11 +100,12 @@ My LeetCode Stats:
 |<sup>1539</sup>|<sup>[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1539--kth-missing-positive-number.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1539--kth-missing-positive-number.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1539--kth-missing-positive-number.php)</sup>|
 |<sup>2187</sup>|<sup>[Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2187--minimum-time-to-complete-trips.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2187--minimum-time-to-complete-trips.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2187--minimum-time-to-complete-trips.php)</sup>|
 |<sup>2300</sup>|<sup>[Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2300--successful-pairs-of-spells-and-potions.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2300--successful-pairs-of-spells-and-potions.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2300--successful-pairs-of-spells-and-potions.php)</sup>|
+|<sup>2390</sup>|<sup>[Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2390--removing-stars-from-a-string.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2390--removing-stars-from-a-string.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2390--removing-stars-from-a-string.php)</sup>|
 |<sup>2405</sup>|<sup>[Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2405--optimal-partition-of-string.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2405--optimal-partition-of-string.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2405--optimal-partition-of-string.php)</sup>|
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Tue, 11 Apr 2023 00:00:31 GMT</sub>
+<sup>Last update:  Tue, 11 Apr 2023 00:31:09 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
