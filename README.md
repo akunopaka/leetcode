@@ -31,7 +31,7 @@ Andrii Sokol*</sup>
 ### My Solutions for Study Plans:
 
 * [LeetCode 75 / Level 1](https://github.com/akunopaka/leetcode/blob/master/Study-Plan--LeetCode-75--Level-1.md) [Achieved]
-* LeetCode 75 / Level 2 [In Progress]
+* [LeetCode 75 / Level 2](https://github.com/akunopaka/leetcode/blob/master/Study-Plan--LeetCode-75--Level-2.md) [In Progress]
 
 ### My LeetCode Solutions
 
