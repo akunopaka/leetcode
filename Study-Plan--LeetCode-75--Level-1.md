@@ -1,4 +1,5 @@
-![LeetCode](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)
+![LeetCode](https://img.shields.io/badge/My%20LeetCode%20Profile:-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06) \
+https://leetcode.com/akunopaka
 
 ### Study Plan: [LeetCode 75 / Level 1](https://leetcode.com/study-plan/leetcode-75/)
 
