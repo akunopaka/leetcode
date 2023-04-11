@@ -171,7 +171,7 @@ const getLeetCodeStats = async () => {
             statString1 += ` ${value.difficulty} |`;
             statString2 += ` ${value.count} | `;
         }
-        let statString = statString1 + "\n|-------|-------|-------|-------|\n" + statString2 + "\n";
+        let statString = statString1 + "\n|-------|-------|-------|-------|-------|\n" + statString2 + "\n";
 
         const problemsMetaJson = JSON.parse(await getLeetcodeProblemsListJsonData());
         // console.log(problemsMetaJson);
