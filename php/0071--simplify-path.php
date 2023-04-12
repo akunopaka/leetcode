@@ -2,7 +2,10 @@
 //  71. Simplify Path
 //  https://leetcode.com/problems/simplify-path/
 //  Medium
-//  
+//
+//   My Solution on LeetCode:
+//   https://leetcode.com/discuss/topic/3409259/phpbeats-100javascript-simplifying-a-path-using-stack/
+//
 //    Given a string path, which is an absolute path (starting with a slash ' / ') to a file or directory in a Unix-style file system, convert it to the simplified canonical path.
 //    In a Unix-style file system, a period ' . ' refers to the current directory, a double period '..' refers to the directory up a level, and any multiple consecutive slashes (i.e. '//') are treated as a single slash ' / '. For this problem, any other format of periods such as '...' are treated as file/directory names.
 //    The canonical path should have the following format:
@@ -29,11 +32,7 @@
 //    path is a valid absolute Unix path.
 class Solution
 {
-    /**
-     * @param String $path
-     * @return String
-     */
-    function simplifyPath($path) {
+    function simplifyPath(string $path): string {
         $pathArray = explode('/', $path);
         $result = [];
         foreach ($pathArray as $key => $value) {

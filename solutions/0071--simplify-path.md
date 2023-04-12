@@ -4,6 +4,8 @@ Difficulty: `Medium`
 
 https://leetcode.com/problems/simplify-path/`
 
+My Solution on LeetCode:
+https://leetcode.com/discuss/topic/3409259/phpbeats-100javascript-simplifying-a-path-using-stack/
 
 
 <p>Given a string <code>path</code>, which is an <strong>absolute path</strong> (starting with a slash <code>' / '</code>) to a file or directory in a Unix-style file system, convert it to the simplified <strong>canonical path</strong>.</p>
