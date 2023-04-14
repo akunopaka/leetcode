@@ -39,7 +39,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  73 |  26 |  39 |  8 | 
+| Count |  75 |  26 |  41 |  8 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -112,7 +112,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Thu, 13 Apr 2023 18:24:56 GMT</sub>
+<sup>Last update:  Fri, 14 Apr 2023 22:44:52 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
