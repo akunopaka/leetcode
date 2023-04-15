@@ -26,13 +26,7 @@
 
 class Solution
 {
-
-    /**
-     * @param Integer[][] $piles
-     * @param Integer $k
-     * @return Integer
-     */
-    function maxValueOfCoins($piles, $k) {
+    function maxValueOfCoins(array $piles, int $k): int {
         $n = count($piles);
         $dp = array_fill(0, $n + 1, array_fill(0, $k + 1, 0));
 
