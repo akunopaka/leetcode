@@ -48,7 +48,7 @@ var mergeAlternately = function (word1, word2) {
     const lengthMin = Math.min(lengthW1, lengthW2);
     let i, result = '';
     for (i = 0; i < lengthMin; i++) {
-        result += word1[i] + word1[2];
+        result += word1[i] + word2[i];
     }
     return result + word1.slice(i) + word2.slice(i);
 }
