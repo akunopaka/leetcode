@@ -39,7 +39,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  80 |  28 |  42 |  10 | 
+| Count |  86 |  29 |  44 |  13 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -74,6 +74,7 @@ My LeetCode Stats:
 |<sup>0235</sup>|<sup>[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0235--lowest-common-ancestor-of-a-binary-search-tree.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0235--lowest-common-ancestor-of-a-binary-search-tree.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0235--lowest-common-ancestor-of-a-binary-search-tree.php)</sup>|
 |<sup>0278</sup>|<sup>[First Bad Version](https://leetcode.com/problems/first-bad-version/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0278--first-bad-version.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0278--first-bad-version.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0278--first-bad-version.php)</sup>|
 |<sup>0299</sup>|<sup>[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0299--bulls-and-cows.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0299--bulls-and-cows.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0299--bulls-and-cows.php)</sup>|
+|<sup>0319</sup>|<sup>[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0319--bulb-switcher.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0319--bulb-switcher.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0319--bulb-switcher.php)</sup>|
 |<sup>0382</sup>|<sup>[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0382--linked-list-random-node.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0382--linked-list-random-node.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0382--linked-list-random-node.php)</sup>|
 |<sup>0392</sup>|<sup>[Is Subsequence](https://leetcode.com/problems/is-subsequence/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0392--is-subsequence.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0392--is-subsequence.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0392--is-subsequence.php)</sup>|
 |<sup>0394</sup>|<sup>[Decode String](https://leetcode.com/problems/decode-string/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0394--decode-string.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0394--decode-string.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0394--decode-string.php)</sup>|
@@ -117,7 +118,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Wed, 19 Apr 2023 20:12:20 GMT</sub>
+<sup>Last update:  Thu, 27 Apr 2023 19:47:32 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
