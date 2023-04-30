@@ -4,6 +4,8 @@ Difficulty: `Medium`
 
 https://leetcode.com/problems/redundant-connection/
 
+MY SOLUTION ON LEETCODE:
+https://leetcode.com/discuss/topic/3470672/phpjavascript-beats-100-disjoint-set-union-union-find/
 
 
 <p>In this problem, a tree is an <strong>undirected graph</strong> that is connected and has no cycles.</p>
@@ -136,7 +138,7 @@ class DSU
     private array $parent;
     private array $rank;
 
-    public function __construct($n) {
+    public function __construct(int $n) {
         $this->parent = array_fill(0, $n, 0);
         $this->rank = array_fill(0, $n, 0);
         for ($i = 0; $i < $n; $i++) {
@@ -144,14 +146,14 @@ class DSU
         }
     }
 
-    public function find($x) {
+    public function find(int $x) {
         if ($x == $this->parent[$x])
             return $x;
         else
             return $this->parent[$x] = $this->find($this->parent[$x]);
     }
 
-    public function union($x, $y): bool {
+    public function union(int $x,int $y): bool {
         $xParent = $this->find($x);
         $yParent = $this->find($y);
         if ($xParent == $yParent) {
@@ -174,7 +176,7 @@ class Solution
      * @param Integer[][] $edges
      * @return Integer[]
      */
-    function findRedundantConnection($edges) {
+    function findRedundantConnection(array $edges): array {
         $dsu = new DSU(sizeof($edges) + 1);
         foreach ($edges as $edge)
             if (!$dsu->union($edge[0], $edge[1]))
