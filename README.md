@@ -39,7 +39,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  88 |  29 |  45 |  14 | 
+| Count |  93 |  33 |  45 |  15 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -85,6 +85,7 @@ My LeetCode Stats:
 |<sup>0509</sup>|<sup>[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0509--fibonacci-number.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0509--fibonacci-number.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0509--fibonacci-number.php)</sup>|
 |<sup>0589</sup>|<sup>[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0589--n-ary-tree-preorder-traversal.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0589--n-ary-tree-preorder-traversal.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0589--n-ary-tree-preorder-traversal.php)</sup>|
 |<sup>0605</sup>|<sup>[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0605--can-place-flowers.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0605--can-place-flowers.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0605--can-place-flowers.php)</sup>|
+|<sup>0684</sup>|<sup>[Redundant Connection](https://leetcode.com/problems/redundant-connection/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0684--redundant-connection.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0684--redundant-connection.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0684--redundant-connection.php)</sup>|
 |<sup>0692</sup>|<sup>[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0692--top-k-frequent-words.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0692--top-k-frequent-words.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0692--top-k-frequent-words.php)</sup>|
 |<sup>0704</sup>|<sup>[Binary Search](https://leetcode.com/problems/binary-search/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0704--binary-search.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0704--binary-search.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0704--binary-search.php)</sup>|
 |<sup>0724</sup>|<sup>[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0724--find-pivot-index.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0724--find-pivot-index.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0724--find-pivot-index.php)</sup>|
@@ -119,7 +120,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Sat, 29 Apr 2023 18:05:09 GMT</sub>
+<sup>Last update:  Sun, 30 Apr 2023 16:01:03 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
