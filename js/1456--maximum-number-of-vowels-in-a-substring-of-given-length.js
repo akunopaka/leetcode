@@ -29,7 +29,7 @@
  */
 var maxVowels = function (s, k) {
     let maxVowelsResult = 0;
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
+    // const vowels = ['a', 'e', 'i', 'o', 'u'];
     const isVowel = s => s === 'a' || s === 'e' || s === 'i' || s === 'o' || s === 'u';
 
     // use sliding window
