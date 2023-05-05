@@ -39,7 +39,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  112 |  47 |  49 |  16 | 
+| Count |  114 |  49 |  49 |  16 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -106,6 +106,7 @@ My LeetCode Stats:
 |<sup>1345</sup>|<sup>[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)</sup>|<sup>`Hard`</sup>|<sup></sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1345--jump-game-iv.js)</sup>|<sup>x</sup>|
 |<sup>1372</sup>|<sup>[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1372--longest-zigzag-path-in-a-binary-tree.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1372--longest-zigzag-path-in-a-binary-tree.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1372--longest-zigzag-path-in-a-binary-tree.php)</sup>|
 |<sup>1431</sup>|<sup>[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1431--kids-with-the-greatest-number-of-candies.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1431--kids-with-the-greatest-number-of-candies.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1431--kids-with-the-greatest-number-of-candies.php)</sup>|
+|<sup>1456</sup>|<sup>[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1456--maximum-number-of-vowels-in-a-substring-of-given-length.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1456--maximum-number-of-vowels-in-a-substring-of-given-length.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1456--maximum-number-of-vowels-in-a-substring-of-given-length.php)</sup>|
 |<sup>1472</sup>|<sup>[Design Browser History](https://leetcode.com/problems/design-browser-history/)</sup>|<sup>`Medium`</sup>|<sup></sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1472--design-browser-history.js)</sup>|<sup>x</sup>|
 |<sup>1480</sup>|<sup>[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1480--running-sum-of-1d-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1480--running-sum-of-1d-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1480--running-sum-of-1d-array.php)</sup>|
 |<sup>1539</sup>|<sup>[Kth Missing Positive Number](https://leetcode.com/problems/kth-missing-positive-number/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1539--kth-missing-positive-number.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1539--kth-missing-positive-number.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1539--kth-missing-positive-number.php)</sup>|
@@ -123,7 +124,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Thu, 04 May 2023 22:15:19 GMT</sub>
+<sup>Last update:  Fri, 05 May 2023 14:27:22 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
