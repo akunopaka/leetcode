@@ -1,10 +1,14 @@
 # SQL I - Level 1
 
-https://leetcode.com/study-plan/sql/
+![LeetCode](https://img.shields.io/badge/My%20LeetCode%20Profile:-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06) \
+https://leetcode.com/akunopaka
 
-![img_3.png](img_3.png)
+### Study Plan: [LeetCode SQL / Level 1](https://leetcode.com/study-plan/sql/)
+<p>
+  <img src="https://assets.leetcode.com/study_plan/sql/cover.png" width="150" alt="" />  <img src="https://assets.leetcode.com/static_assets/others/SQLI.gif" width="150" alt="" />
+</p>
 
-By https://leetcode.com/akunopaka/
+
 
 # -------------------------------------------------
 
