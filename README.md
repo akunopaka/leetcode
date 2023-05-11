@@ -40,7 +40,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  140 |  68 |  55 |  17 | 
+| Count |  142 |  69 |  56 |  17 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -103,6 +103,7 @@ My LeetCode Stats:
 |<sup>0946</sup>|<sup>[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0946--validate-stack-sequences.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0946--validate-stack-sequences.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0946--validate-stack-sequences.php)</sup>|
 |<sup>0958</sup>|<sup>[Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/958--check-completeness-of-a-binary-tree.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/958--check-completeness-of-a-binary-tree.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/958--check-completeness-of-a-binary-tree.php)</sup>|
 |<sup>1020</sup>|<sup>[Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1020--number-of-enclaves.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1020--number-of-enclaves.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1020--number-of-enclaves.php)</sup>|
+|<sup>1035</sup>|<sup>[Uncrossed Lines](https://leetcode.com/problems/uncrossed-lines/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1035--uncrossed-lines.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1035--uncrossed-lines.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1035--uncrossed-lines.php)</sup>|
 |<sup>1046</sup>|<sup>[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1046--last-stone-weight.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1046--last-stone-weight.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1046--last-stone-weight.php)</sup>|
 |<sup>1254</sup>|<sup>[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1254--number-of-closed-islands.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1254--number-of-closed-islands.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1254--number-of-closed-islands.php)</sup>|
 |<sup>1345</sup>|<sup>[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)</sup>|<sup>`Hard`</sup>|<sup></sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1345--jump-game-iv.js)</sup>|<sup>x</sup>|
@@ -129,7 +130,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Wed, 10 May 2023 20:00:29 GMT</sub>
+<sup>Last update:  Thu, 11 May 2023 23:33:59 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
