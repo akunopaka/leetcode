@@ -40,7 +40,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  142 |  69 |  56 |  17 | 
+| Count |  152 |  72 |  62 |  18 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -51,6 +51,7 @@ My LeetCode Stats:
 |<sup>0020</sup>|<sup>[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0020--valid-parentheses.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0020--valid-parentheses.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0020--valid-parentheses.php)</sup>|
 |<sup>0021</sup>|<sup>[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0021--merge-two-sorted-lists.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0021--merge-two-sorted-lists.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0021--merge-two-sorted-lists.php)</sup>|
 |<sup>0023</sup>|<sup>[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)</sup>|<sup>`Hard`</sup>|<sup></sup>|<sup>x</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0023--merge-k-sorted-lists.php)</sup>|
+|<sup>0024</sup>|<sup>[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0024--swap-nodes-in-pairs.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0024--swap-nodes-in-pairs.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0024--swap-nodes-in-pairs.php)</sup>|
 |<sup>0028</sup>|<sup>[Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0028--find-the-index-of-the-first-occurrence-in-a-string.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0028--find-the-index-of-the-first-occurrence-in-a-string.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0028--find-the-index-of-the-first-occurrence-in-a-string.php)</sup>|
 |<sup>0054</sup>|<sup>[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0054--spiral-matrix.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0054--spiral-matrix.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0054--spiral-matrix.php)</sup>|
 |<sup>0059</sup>|<sup>[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0059--spiral-matrix-ii.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0059--spiral-matrix-ii.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0059--spiral-matrix-ii.php)</sup>|
@@ -130,7 +131,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Thu, 11 May 2023 23:33:59 GMT</sub>
+<sup>Last update:  Tue, 16 May 2023 22:18:09 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
