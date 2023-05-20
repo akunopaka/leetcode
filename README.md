@@ -40,7 +40,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  152 |  72 |  62 |  18 | 
+| Count |  160 |  72 |  70 |  18 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -81,6 +81,7 @@ My LeetCode Stats:
 |<sup>0382</sup>|<sup>[Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0382--linked-list-random-node.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0382--linked-list-random-node.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0382--linked-list-random-node.php)</sup>|
 |<sup>0392</sup>|<sup>[Is Subsequence](https://leetcode.com/problems/is-subsequence/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0392--is-subsequence.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0392--is-subsequence.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0392--is-subsequence.php)</sup>|
 |<sup>0394</sup>|<sup>[Decode String](https://leetcode.com/problems/decode-string/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0394--decode-string.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0394--decode-string.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0394--decode-string.php)</sup>|
+|<sup>0399</sup>|<sup>[Evaluate Division](https://leetcode.com/problems/evaluate-division/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0399--evaluate-division.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0399--evaluate-division.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0399--evaluate-division.php)</sup>|
 |<sup>0409</sup>|<sup>[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0409--longest-palindrome.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0409--longest-palindrome.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0409--longest-palindrome.php)</sup>|
 |<sup>0424</sup>|<sup>[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0424--longest-repeating-character-replacement.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0424--longest-repeating-character-replacement.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0424--longest-repeating-character-replacement.php)</sup>|
 |<sup>0438</sup>|<sup>[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/0438--find-all-anagrams-in-a-string.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/0438--find-all-anagrams-in-a-string.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/0438--find-all-anagrams-in-a-string.php)</sup>|
@@ -131,7 +132,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Tue, 16 May 2023 22:18:09 GMT</sub>
+<sup>Last update:  Sat, 20 May 2023 18:23:09 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
