@@ -19,6 +19,12 @@
 class Solution
 {
     function topKFrequent(array $nums, int $k): array {
+        $numsCountsByNum = array_count_values($nums);
+        arsort($numsCountsByNum);
+        return array_slice(array_keys($numsCountsByNum), 0, $k);
+    }
+
+    function topKFrequent11(array $nums, int $k): array {
         $map = [];
         foreach ($nums as $num) {
             if (isset($map[$num])) {
