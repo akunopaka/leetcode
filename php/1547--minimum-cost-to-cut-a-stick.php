@@ -27,19 +27,22 @@
 
 class Solution
 {
-    private $memo = [];
+    private $cache = [];
+
 
     /**
      * @param Integer $n
      * @param Integer[] $cuts
-     * @return Integer
+     * @param int|null $left
+     * @param int|null $right
+     * @return int
      */
-    function minCost($n, $cuts, $left = null, $right = null) {
+    function minCost(int $n, array $cuts, int $left = null, int $right = null): int {
         if ($left === null) $left = 0;
         if ($right === null) $right = $n;
         if ($right - $left == 1) return 0;
 
-        if (isset($this->memo[$left][$right])) return $this->memo[$left][$right];
+        if (isset($this->cache[$left][$right])) return $this->cache[$left][$right];
 
         $res = PHP_INT_MAX;
         foreach ($cuts as $cut) {
@@ -49,7 +52,7 @@ class Solution
         }
         if ($res == PHP_INT_MAX) $res = 0;
 
-        $this->memo[$left][$right] = $res;
+        $this->cache[$left][$right] = $res;
 
         return $res;
     }
