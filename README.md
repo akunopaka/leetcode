@@ -40,7 +40,7 @@ Andrii Sokol*</sup>
 My LeetCode Stats: 
  | Difficulty  |  All | Easy | Medium | Hard |
 |-------|-------|-------|-------|-------|
-| Count |  176 |  75 |  81 |  20 | 
+| Count |  182 |  77 |  85 |  20 | 
 
 
 |   #   | Name  | Difficulty | Solutions | JS | PHP  |
@@ -112,6 +112,7 @@ My LeetCode Stats:
 |<sup>1254</sup>|<sup>[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1254--number-of-closed-islands.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1254--number-of-closed-islands.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1254--number-of-closed-islands.php)</sup>|
 |<sup>1345</sup>|<sup>[Jump Game IV](https://leetcode.com/problems/jump-game-iv/)</sup>|<sup>`Hard`</sup>|<sup></sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1345--jump-game-iv.js)</sup>|<sup>x</sup>|
 |<sup>1372</sup>|<sup>[Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1372--longest-zigzag-path-in-a-binary-tree.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1372--longest-zigzag-path-in-a-binary-tree.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1372--longest-zigzag-path-in-a-binary-tree.php)</sup>|
+|<sup>1396</sup>|<sup>[Design Underground System](https://leetcode.com/problems/design-underground-system/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1396--design-underground-system.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1396--design-underground-system.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1396--design-underground-system.php)</sup>|
 |<sup>1406</sup>|<sup>[Stone Game III](https://leetcode.com/problems/stone-game-iii/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1406--stone-game-iii.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1406--stone-game-iii.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1406--stone-game-iii.php)</sup>|
 |<sup>1431</sup>|<sup>[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)</sup>|<sup>`Easy`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1431--kids-with-the-greatest-number-of-candies.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1431--kids-with-the-greatest-number-of-candies.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1431--kids-with-the-greatest-number-of-candies.php)</sup>|
 |<sup>1456</sup>|<sup>[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/1456--maximum-number-of-vowels-in-a-substring-of-given-length.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/1456--maximum-number-of-vowels-in-a-substring-of-given-length.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/1456--maximum-number-of-vowels-in-a-substring-of-given-length.php)</sup>|
@@ -137,7 +138,7 @@ My LeetCode Stats:
 |<sup>2439</sup>|<sup>[Minimize Maximum of Array](https://leetcode.com/problems/minimize-maximum-of-array/)</sup>|<sup>`Medium`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2439--minimize-maximum-of-array.md)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2439--minimize-maximum-of-array.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2439--minimize-maximum-of-array.php)</sup>|
 |<sup>2444</sup>|<sup>[Count Subarrays With Fixed Bounds](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/)</sup>|<sup>`Hard`</sup>|<sup>[Git Solution](https://github.com/akunopaka/leetcode/blob/master/solutions/2444--count-subarrays-with-fixed-bounds.txt)</sup>|<sup>[JS](https://github.com/akunopaka/leetcode/blob/master/js/2444--count-subarrays-with-fixed-bounds.js)</sup>|<sup>[PHP](https://github.com/akunopaka/leetcode/blob/master/php/2444--count-subarrays-with-fixed-bounds.php)</sup>|
 
-<sup>Last update:  Mon, 29 May 2023 16:43:22 GMT</sub>
+<sup>Last update:  Wed, 31 May 2023 11:07:07 GMT</sub>
 <!-- End LeetCode Solutions of Table -->
 
 <img src="https://github.com/akunopaka/akunopaka/blob/main/img/Stand_with_Ukraine_Footer_h200.jpeg" title="Stand with Ukraine" alt="Stand with Ukraine" />
